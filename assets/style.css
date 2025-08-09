@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #1f2937 !important;
     text-decoration: none; /* optional: remove underline */
   }
-  
-  h1 a:hover, h2 a:hover, h3 a:hover,
-  h4 a:hover, h5 a:hover, h6 a:hover {
-    color: #111827 !important; /* slightly darker on hover */
-  }
+
+/* Make ALL links match the same dark color */
+a { color: #1f2937 !important; text-decoration: none; }
+a:hover { color: #111827 !important; }
+
   
   

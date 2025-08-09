@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="/assets/style.css">
 
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
-  <img class="avatar" src="src=/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
+  <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
     <h1 style="margin:0;">Your Name</h1>
     <p style="margin:4px 0 0 0;">CS @ SFSU · Full‑stack dev · Interested in AI/VR</p>
