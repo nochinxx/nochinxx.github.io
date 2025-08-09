@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <link rel="stylesheet" href="/assets/style.css">
 
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
@@ -8,7 +9,7 @@ layout: default
   <div>
     <h1 style="margin:0;">Your Name</h1>
     <p style="margin:4px 0 0 0;">CS @ SFSU · Full‑stack dev · Interested in AI/VR</p>
-    <p style="margin:4px 0 0 0;"><a href="mailto:your@email.com">Email</a> · <a href="https://github.com/<your-username>">GitHub</a> · <a href="https://www.linkedin.com/in/<your-handle>/">LinkedIn</a> · <a href="/blog/">Blog</a></p>
+    <p style="margin:4px 0 0 0;"><a href="mailto:mariojillesca@gmail.com">Email</a> · <a href="https://github.com/nochinxx">GitHub</a> · <a href="https://www.linkedin.com/in/mario-jimenez-7b9683206/">LinkedIn</a> · <a href="/blog/">Blog</a></p>
   </div>
 </div>
 
@@ -16,29 +17,25 @@ layout: default
 
 <div class="grid">
   <div class="project-card">
-    <h3>Dayton Financial - Quoting System <span class="badge">Next.js · Firebase</span></h3>
-    <p>Real-time buyer/seller dashboard, role-based access, interactive spreadsheet UI. Replaced complex spreadsheets and saved thousands in ops costs.</p>
-    <p><a href="https://github.com/<your-username>/<repo>">Code</a> · <a href="#">Live</a></p>
-  </div>
-  <div class="project-card">
-    <h3>Nutrition Tracker <span class="badge">React · Firebase</span></h3>
-    <p>USDA API integration, charts, and daily macro insights with clean UI.</p>
-    <p><a href="https://github.com/<your-username>/<repo>">Code</a></p>
-  </div>
-  <div class="project-card">
-    <h3>RFQ Tool <span class="badge">Firestore · TanStack</span></h3>
-    <p>Multi-tenant RFQ sheets with seller magic links, batch updates, and buyer aggregation view.</p>
-    <p><a href="https://github.com/<your-username>/<repo>">Code</a></p>
-  </div>
+  <h3>Dayton Financial RFQ Tool <span class="badge">Next.js · Firebase · Firestore · TanStack</span></h3>
+  <p>Multi-tenant RFQ and quoting platform featuring real-time buyer/seller dashboards, role-based access, interactive spreadsheet UI, seller magic links, batch updates, and buyer aggregation views. Replaced complex spreadsheets and saved thousands in operational costs.</p>
+  <p><a href="https://github.com/<your-username>/<repo>">Code</a> · <a href="#">Live</a></p>
+</div>
+<div class="project-card">
+  <h3>Nutrition Tracker <span class="badge">React · Firebase</span></h3>
+  <p>USDA API integration, charts, and daily macro insights with clean UI.</p>
+  <p><a href="https://github.com/<your-username>/<repo>">Code</a></p>
+</div>
+
 </div>
 
 ## Experience
 
+**Intern — Boyd Lighting**  
+Digitized and structured a 1,000+ product archive to create a searchable internal knowledge base, improving sales enablement and accelerating design workflows. Proposed and designed concepts for a VR-powered virtual showroom and an AI-driven search tool to enhance product discovery, inspire design concepts, and support strategic sales initiatives.
+
 **Software Developer (Contract) — June 2025**  
 Shipped a production quoting platform in ~1 week (2‑person team), $1.2k contract. Implemented auth, granular roles, and live UI for quotes.
-
-**Intern — Boyd Lighting**  
-Digitized a 1,000+ product archive and proposed internal AI search for sales/design.
 
 ## Skills
 
