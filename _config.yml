@@ -1,0 +1,19 @@
+# Site settings
+title: "Your Name"
+description: "CS Student · Developer · Portfolio"
+url: "https://<your-username>.github.io"  # update with your username
+
+# GitHub Pages-safe theme
+remote_theme: pages-themes/cayman@v0.2.0  # clean & modern; GitHub Pages supports this
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation (used by the theme)
+show_downloads: false
+
+# Social handles (optional)
+github_username: <your-username>
+linkedin: https://www.linkedin.com/in/<your-handle>/
+email: your@email.com
