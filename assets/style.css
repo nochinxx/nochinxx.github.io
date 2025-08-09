@@ -71,10 +71,31 @@
   
   /* Avatar image */
   .avatar {
-    width: 96px;
-    height: 96px;
+    width: 160px;   /* was 96px */
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #e5e7eb;
+    border: 3px solid #e5e7eb; /* thicker border for bigger size */
   }
+  /* Kill Cayman’s green by overriding its more specific selectors */
+.markdown-body a,
+.page-header a,
+.site-footer a,
+a {
+  color: var(--accent) !important; /* indigo */
+  text-decoration: none;
+}
+.markdown-body a:hover,
+.page-header a:hover,
+.site-footer a:hover,
+a:hover {
+  color: #4338ca !important; /* darker indigo hover */
+}
+
+/* Ensure text color logic is correct */
+.page-header, .header { color: var(--light-text); }
+.page-header *, .header * { color: var(--light-text) !important; }
+
+/* Headings on light backgrounds */
+h1, h2, h3, h4, h5, h6 { color: var(--navy-text); }
   
