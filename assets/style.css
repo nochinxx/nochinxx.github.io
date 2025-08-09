@@ -1,33 +1,80 @@
 /* Subtle polish over the Cayman theme */
 :root {
-    --accent: #4f46e5; /* indigo */
+    --accent: #4f46e5; /* indigo for links */
+    --dark-bg-start: #111827; /* start of header gradient */
+    --dark-bg-end: #1f2937;   /* end of header gradient */
+    --navy-text: #1f2937;     /* navy blue for light backgrounds */
+    --light-text: #f9fafb;    /* near white for dark backgrounds */
   }
-  a { color: var(--accent); text-decoration: none; }
-  .header, .page-header { background-image: linear-gradient(135deg, #111827, #1f2937); }
+  
+  /* Default link styles */
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover {
+    color: #4338ca; /* darker indigo */
+  }
+  
+  /* Header / page header (dark background) */
+  .header, .page-header {
+    background-image: linear-gradient(135deg, var(--dark-bg-start), var(--dark-bg-end));
+    color: var(--light-text); /* white text on dark background */
+  }
+  
+  /* Force all text inside header to be light */
+  .header *, .page-header * {
+    color: var(--light-text) !important;
+  }
+  .header a, .page-header a {
+    color: var(--accent) !important; /* links in dark bg still indigo */
+  }
+  .header a:hover, .page-header a:hover {
+    color: #a5b4fc !important; /* lighter indigo hover */
+  }
+  
+  /* Light background headings and text */
+  body, main, .project-card, .grid {
+    color: var(--navy-text);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--navy-text);
+  }
+  
+  /* Project cards */
   .project-card {
     border: 1px solid #e5e7eb;
     border-radius: 16px;
     padding: 16px;
     transition: transform .15s ease, box-shadow .15s ease;
   }
-  .project-card:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,.08); }
-  .badge { background:#eef2ff; color:#3730a3; padding:2px 8px; border-radius:999px; font-size:.8rem; }
-  .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; border: 2px solid #e5e7eb; }
-  /* Make all headings match the header background color */
-h1, h2, h3, h4, h5, h6 {
-    color: #1f2937 !important; /* darker end of your gradient */
+  .project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,.08);
   }
   
-  /* Make links inside headings the same color (no default green) */
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #1f2937 !important;
-    text-decoration: none; /* optional: remove underline */
+  /* Badges */
+  .badge {
+    background: #eef2ff;
+    color: #3730a3;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: .8rem;
   }
-
-/* Make ALL links match the same dark color */
-a { color: #1f2937 !important; text-decoration: none; }
-a:hover { color: #111827 !important; }
-
   
+  /* Layout helpers */
+  .grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  
+  /* Avatar image */
+  .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+  }
   
