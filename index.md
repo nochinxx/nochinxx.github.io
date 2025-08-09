@@ -7,7 +7,7 @@ layout: default
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
   <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
-    <h1 style="margin:0;">Your Name</h1>
+    <h1 style="margin:0;">Mario Jimenez Illesca</h1>
     <p style="margin:4px 0 0 0;">CS @ SFSU · Full‑stack dev · Interested in AI/VR</p>
     <p style="margin:4px 0 0 0;"><a href="mailto:mariojillesca@gmail.com">Email</a> · <a href="https://github.com/nochinxx">GitHub</a> · <a href="https://www.linkedin.com/in/mario-jimenez-7b9683206/">LinkedIn</a> · <a href="/blog/">Blog</a></p>
   </div>

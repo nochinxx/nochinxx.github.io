@@ -2,7 +2,7 @@
 :root {
     --accent: #4f46e5; /* indigo */
   }
-  a { color: var(--accent); }
+  a { color: var(--accent); text-decoration: none; }
   .header, .page-header { background-image: linear-gradient(135deg, #111827, #1f2937); }
   .project-card {
     border: 1px solid #e5e7eb;
