@@ -1,7 +1,7 @@
 # Site settings
-title: "Your Name"
+title: "Mario Jimenez Illesca"
 description: "CS Student · Developer · Portfolio"
-url: "https://<your-username>.github.io"  # update with your username
+url: "https://nochinxx.github.io"  # update with your username
 
 # GitHub Pages-safe theme
 remote_theme: pages-themes/cayman@v0.2.0  # clean & modern; GitHub Pages supports this
@@ -14,6 +14,6 @@ plugins:
 show_downloads: false
 
 # Social handles (optional)
-github_username: <your-username>
+github_username: nochinxx
 linkedin: https://www.linkedin.com/in/<your-handle>/
-email: your@email.com
+email: mariojillesca@gmail.com
