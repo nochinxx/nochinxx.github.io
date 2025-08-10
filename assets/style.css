@@ -75,27 +75,33 @@
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #e5e7eb; /* thicker border for bigger size */
+    border: 3px solid #e5e7eb;
   }
-  /* Kill Cayman’s green by overriding its more specific selectors */
-.markdown-body a,
-.page-header a,
-.site-footer a,
-a {
-  color: var(--accent) !important; /* indigo */
-  text-decoration: none;
-}
-.markdown-body a:hover,
-.page-header a:hover,
-.site-footer a:hover,
-a:hover {
-  color: #4338ca !important; /* darker indigo hover */
+  
+  /* Kill Cayman green on headings everywhere */
+.markdown-body h1, .markdown-body h2, .markdown-body h3,
+.markdown-body h4, .markdown-body h5, .markdown-body h6,
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2937 !important; /* navy on light backgrounds */
 }
 
-/* Ensure text color logic is correct */
-.page-header, .header { color: var(--light-text); }
-.page-header *, .header * { color: var(--light-text) !important; }
+/* Headings/links specifically inside project cards */
+.project-card h3, .project-card h3 a {
+  color: #1f2937 !important;
+}
 
-/* Headings on light backgrounds */
-h1, h2, h3, h4, h5, h6 { color: var(--navy-text); }
+/* If your name/title ever sits on a dark header area */
+.page-header h1, .header h1,
+.page-header h1 a, .header h1 a {
+  color: #f9fafb !important; /* white on dark */
+}
+
+/* Links default to indigo (but headings above stay navy) */
+.markdown-body a, .page-header a, a {
+  color: #4f46e5 !important;
+}
+.markdown-body a:hover, .page-header a:hover, a:hover {
+  color: #4338ca !important;
+}
+
   
