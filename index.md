@@ -34,8 +34,8 @@ layout: default
 **Intern — Boyd Lighting**  
 Digitized and structured a 1,000+ product archive to create a searchable internal knowledge base, improving sales enablement and accelerating design workflows. Proposed and designed concepts for a VR-powered virtual showroom and an AI-driven search tool to enhance product discovery, inspire design concepts, and support strategic sales initiatives.
 
-**Software Developer (Contract) — June 2025**  
-Shipped a production quoting platform in ~1 week (2‑person team), $1.2k contract. Implemented auth, granular roles, and live UI for quotes.
+**Software Developer @Dayton Financial (Contract) — June 2025**  
+Shipped a production quoting platform with a 2‑person team. Implemented auth, granular roles, and live UI for quotes.
 
 ## Skills
 
