@@ -23,7 +23,7 @@ layout: default
 </div>
 <div class="project-card">
   <h3>Nutrition Tracker <span class="badge">React · Firebase</span></h3>
-  <p>USDA API integration, charts, and daily macro insights with clean UI.</p>
+  <p>USDA API integration to scrape all the nutrients from different foods, charts, role-based access, and daily macro insights with clean UI.</p>
   <p><a href="https://github.com/<your-username>/<repo>">Code</a></p>
 </div>
 
