@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="header page-header">
+    <header class="header page-header">
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:1rem; max-width:1200px; margin:auto;">
+          <h1>{{ site.title }}</h1>
+          <nav>
+            <a href="/">Home</a> · 
+            <a href="/blog/">Blog</a> · 
+            <a href="/documents/Aug-2.pdf">Résumé</a>
+          </nav>
+        </div>
+      </header>
+  </header>
+
+  <main class="markdown-body">
+    {{ content }}
+  </main>
+
+  <footer>
+    <p style="text-align:center; margin-top:2rem;">
+      © {{ site.time | date: "%Y" }} {{ site.title }}
+    </p>
+  </footer>
+</body>
+</html>
