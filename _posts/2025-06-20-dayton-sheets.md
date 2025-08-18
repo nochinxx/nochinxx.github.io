@@ -2,6 +2,7 @@
 layout: post
 title: "Building Dayton Sheets — RFQ Tool"
 date: 2025-06-20
+permalink: /projects/dayton-sheets/
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>

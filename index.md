@@ -23,7 +23,7 @@ layout: default
 
 <div class="grid">
   <div class="project-card">
-    <h3><a href="/_posts/2025-06-20-dayton-sheets.html">Dayton Financial RFQ Tool</a> 
+    <h3><a href="{{ '/projects/dayton-sheets/' | relative_url }}">Dayton Financial RFQ Tool</a> 
       <span class="badge">Next.js · Firebase · Firestore · TanStack</span>
     </h3>
     <p>
