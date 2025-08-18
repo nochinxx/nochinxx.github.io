@@ -73,7 +73,7 @@ JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Python, D3, Tailwind, 
 ## Résumé
 
 <p>
-  <a href="/documents/Aug-2.pdf">📄 Download PDF</a><br>
+  <a href="assets/documents/Aug-2.pdf">📄 Download PDF</a><br>
   <span>Email me for referrals</span>
 </p>
 
