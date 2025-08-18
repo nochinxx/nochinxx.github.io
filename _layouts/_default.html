@@ -4,30 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- Tailwind CDN (for utility classes) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your existing CSS -->
   <link rel="stylesheet" href="/assets/style.css">
 </head>
-<body>
+<body class="bg-white text-gray-900">
+
+  <!-- Optional header -->
   <header class="header page-header">
-    <header class="header page-header">
-        <div style="display:flex; justify-content:space-between; align-items:center; padding:1rem; max-width:1200px; margin:auto;">
-          <h1>{{ site.title }}</h1>
-          <nav>
-            <a href="/">Home</a> · 
-            <a href="/blog/">Blog</a> · 
-            <a href="/documents/Aug-2.pdf">Résumé</a>
-          </nav>
-        </div>
-      </header>
+    <div class="max-w-5xl mx-auto flex justify-between items-center p-4">
+      <h1>{{ site.title }}</h1>
+      <nav class="space-x-4">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/documents/Aug-2.pdf">Résumé</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="markdown-body">
+  <!-- Page content -->
+  <main class="markdown-body max-w-5xl mx-auto px-4 py-6">
     {{ content }}
   </main>
 
-  <footer>
-    <p style="text-align:center; margin-top:2rem;">
-      © {{ site.time | date: "%Y" }} {{ site.title }}
-    </p>
+  <footer class="text-center py-6 text-gray-500">
+    © {{ site.time | date: "%Y" }} {{ site.title }}
   </footer>
 </body>
 </html>
