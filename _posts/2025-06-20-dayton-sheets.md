@@ -20,7 +20,7 @@ This replaced a messy workflow in Google Sheets and saved thousands in operation
 
 <div class="flex flex-col md:flex-row gap-6 mb-8">
   <video class="rounded-lg shadow-lg flex-1" controls autoplay muted loop>
-  <source src="/assets/images/dayton/demo.mp4" type="video/mp4">
+  <source src="/assets/videos/dayton/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
     </video>
   <div class="flex-1 flex flex-col justify-center">
