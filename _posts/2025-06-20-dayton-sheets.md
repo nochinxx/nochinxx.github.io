@@ -4,64 +4,24 @@ title: "Building Dayton Sheets — RFQ Tool"
 date: 2025-06-20
 ---
 
-<style>
-/* Container for each section */
-.block {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 32px;
-  align-items: flex-start;
-}
-
-/* Images/Videos */
-.block img, .block video {
-  flex: 1 1 300px;
-  max-width: 45%;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-/* Text content */
-.block .content {
-  flex: 1 1 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* Optional: badges for tech stack */
-.badge {
-  display: inline-block;
-  background-color: #eef2ff;
-  color: #3730a3;
-  padding: 2px 8px;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  margin-left: 4px;
-  margin-bottom: 4px;
-}
-</style>
-
 ## Overview
 
-We built a multi-tenant RFQ and quoting platform featuring buyer/seller dashboards, 
-role-based access, spreadsheet UI, seller magic links, batch updates, and buyer aggregation views.  
+We built a multi-tenant RFQ and quoting platform featuring buyer/seller dashboards, role-based access, spreadsheet UI, seller magic links, batch updates, and buyer aggregation views.  
 
 This replaced a messy workflow in Google Sheets and saved thousands in operational costs.
 
 ## Screenshots & Demo
 
-<div class="block">
-  <img src="/assets/images/dayton/spreadsheet.png" alt="Original Spreadsheet">
-  <img src="/assets/images/dayton/webapp.png" alt="Dayton Webapp">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+  <img class="rounded-lg shadow-lg" src="/assets/images/dayton/spreadsheet.png" alt="Original Spreadsheet">
+  <img class="rounded-lg shadow-lg" src="/assets/images/dayton/webapp.png" alt="Dayton Webapp">
 </div>
 
-<div class="block">
-  <video src="/assets/images/dayton/demo.mov" autoplay muted controls></video>
-  <div class="content">
-    <h3>Dayton Sheets</h3>
-    <p>
+<div class="flex flex-col md:flex-row gap-6 mb-8">
+  <video class="rounded-lg shadow-lg flex-1" src="/assets/images/dayton/demo.mov" autoplay muted controls></video>
+  <div class="flex-1 flex flex-col justify-center">
+    <h3 class="text-2xl font-semibold mb-2">Dayton Sheets</h3>
+    <p class="mb-2">
       We converted their laborious process from entering seller data in a buyer sheet into a streamlined full-stack web app.
     </p>
     <p>
@@ -72,5 +32,11 @@ This replaced a messy workflow in Google Sheets and saved thousands in operation
 
 ## Tech Stack
 
-Next.js · TypeScript · React · Firebase · Firestore · TanStack Table
-
+<div class="flex flex-wrap gap-2">
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Next.js</span>
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">TypeScript</span>
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">React</span>
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Firestore</span>
+  <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">TanStack Table</span>
+</div>
