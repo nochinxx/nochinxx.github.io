@@ -31,8 +31,7 @@ layout: default
     </p>
     <p>
       <a href="https://github.com/nima64/Dayton-Sheets">Code</a> · 
-      <a href="https://dayton-sheets-git-main-rintarouokabe12gmailcoms-projects.vercel.app/">Live</a> · 
-      <a href="/blog/2025/06/20/dayton-sheets.html">Read More</a>
+      <a href="https://dayton-sheets-git-main-rintarouokabe12gmailcoms-projects.vercel.app/">Live</a>
     </p>
   </div>
 
@@ -54,7 +53,6 @@ layout: default
   {% for post in site.posts limit:3 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <small>{{ post.excerpt }}</small>
     </li>
   {% endfor %}
 </ul>
