@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/assets/style.css">
 
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
   <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
     <h1 style="margin:0;">Mario Jimenez Illesca</h1>
-    <p style="margin:4px 0 0 0;">CS @ SFSU · Full-stack dev · Interested in AI/VR</p>
+    <p style="margin:4px 0 0 0;">CS @ SFSU · Full-stack dev · Interested in AI/VR and Biotech</p>
     <p style="margin:4px 0 0 0;">
       <a href="mailto:mariojillesca@gmail.com">Email</a> · 
       <a href="https://github.com/nochinxx">GitHub</a> · 
@@ -21,7 +20,7 @@ layout: default
 
 <div class="grid">
   <div class="project-card">
-    <h3><a href="/blog/2025/06/20/dayton-sheets.html">Dayton Financial RFQ Tool</a> 
+    <h3><a href="/post/2025-06-20-dayton-sheets.html">Dayton Financial RFQ Tool</a> 
       <span class="badge">Next.js · Firebase · Firestore · TanStack</span>
     </h3>
     <p>
