@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="/assets/style.css">
+
+
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
   <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
