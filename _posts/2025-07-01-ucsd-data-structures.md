@@ -18,15 +18,15 @@ mirroring the skills expected in entry-level industry roles.
 
 <ul class="list-disc ml-6">
   <li><b>Text Readability Analyzer</b> — Implemented <code>BasicDocument</code> and 
-      <code>Document</code> classes to compute Flesch Readability Scores:contentReference[oaicite:0]{index=0}. 
+      <code>Document</code> classes to compute Flesch Readability Scores. 
       Practiced string tokenization, regex, and unit testing.</li>
 
   <li><b>Efficient Text Processing & Benchmarking</b> — Built <code>EfficientDocument</code> with 
       pre-computed word/syllable/sentence counts and benchmarked against 
-      <code>BasicDocument</code>. Graphed performance and applied Big-O analysis:contentReference[oaicite:1]{index=1}.</li>
+      <code>BasicDocument</code>. Graphed performance and applied Big-O analysis.</li>
 
   <li><b>Custom Linked List</b> — Developed a generic <code>MyLinkedList&lt;E&gt;</code> with 
-      sentinel nodes, implementing add, remove, set, and thorough JUnit test coverage:contentReference[oaicite:2]{index=2}.</li>
+      sentinel nodes, implementing add, remove, set, and thorough JUnit test coverage.</li>
 
   <li><b>Autocomplete with Tries</b> — Implemented <code>AutoCompleteDictionaryTrie</code> 
       to support word completions, using a Trie and BFS for predictions:contentReference[oaicite:3]{index=3}.</li>
@@ -45,12 +45,4 @@ mirroring the skills expected in entry-level industry roles.
 - Complexity analysis: predicted & benchmarked runtimes  
 - Object-oriented programming in Java  
 
----
-
-<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Industry Value </h2>
-
-These projects show my ability to implement **data structures from scratch**, reason about 
-**efficiency**, and apply algorithms to real-world applications like autocomplete and spell-check. 
-Together, they form a strong foundation for **backend development, search systems, and 
-NLP applications**.
 
