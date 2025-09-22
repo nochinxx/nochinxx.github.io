@@ -23,6 +23,25 @@ layout: default
 
 <div class="grid">
   <div class="project-card">
+    <h3><a href="{{ '/projects/ucsd-data-structures/' | relative_url }}">
+      UCSD Data Structures & Performance
+    </a>
+      <span class="badge">Java · Algorithms · Data Structures</span>
+    </h3>
+    <p>
+      A series of five CS projects covering linked lists, tries, autocomplete, text analysis, performance benchmarking, 
+      and spelling suggestion engines. Focused on implementing core data structures from scratch, optimizing algorithms, 
+      and validating correctness with JUnit tests. 
+    </p>
+    <p>
+      <a href="https://github.com/nochinxx/ucsd-data-structures">Code</a>
+    </p>
+  </div>
+</div>
+
+
+<div class="grid">
+  <div class="project-card">
     <h3><a href="{{ '/projects/dayton-sheets/' | relative_url }}">Dayton Financial RFQ Tool</a> 
       <span class="badge">Next.js · Firebase · Firestore · TanStack</span>
     </h3>
