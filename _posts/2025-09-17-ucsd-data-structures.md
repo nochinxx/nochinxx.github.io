@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UCSD Data Structures & Performance Projects"
-date: 2025-07-01
+date: 2025-09-17
 permalink: /projects/ucsd-data-structures/
 ---
 
