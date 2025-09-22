@@ -79,15 +79,26 @@ layout: default
 
 ## Experience
 
-**Intern — Boyd Lighting**  
-Digitized and structured a 1,000+ product archive to create a searchable internal knowledge base, improving sales enablement and accelerating design workflows. Proposed and designed concepts for a VR-powered virtual showroom and an AI-driven search tool to enhance product discovery, inspire design concepts, and support strategic sales initiatives.
+**Software Developer (Contract) — Dayton Financial** (Apr–Jun 2025)  
+Designed and deployed a production-ready quoting platform replacing complex spreadsheet workflows, saving thousands in operational costs.  
+Built real-time buyer-seller dashboards with interactive spreadsheet UIs featuring live updates, cell-level editing, and secure role-based access.  
+*Stack: Next.js, TypeScript, React, Firebase, TanStack Table.*
 
-**Software Developer @Dayton Financial (Contract) — June 2025**  
-Shipped a production quoting platform with a 2-person team. Implemented auth, granular roles, and live UI for quotes.
+**Intern — Boyd Lighting** (Jun–Aug 2025)  
+Digitized and structured a 1,000+ product archive into a searchable knowledge base, improving sales enablement.  
+Proposed VR-powered virtual showroom and AI-driven search tool concepts to enhance product discovery.  
+
+**Coding Teacher — Marin Horizon Middle School** (Sep 2025–Present)  
+Designed and delivered a custom coding curriculum (Scratch) for 6th–8th graders.  
+Taught problem decomposition, logic, and computational thinking, guiding students in building interactive projects.  
+
+**Intern — UC Merced CalTeach Program** (Jul–Aug 2024)  
+Developed Python/Jupyter-based visualizations of dark matter data with Astropy and Matplotlib.  
+Collaborated with faculty to improve K-12 STEM education materials and strategies.  
 
 ## Skills
 
-JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Python, D3, Tailwind, Git, Jekyll.
+C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tailwind, Git.
 
 ## Résumé
 
