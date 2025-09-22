@@ -19,6 +19,10 @@ layout: default
   </div>
 </div>
 
+## Skills
+
+C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tailwind, Git.
+
 ## Projects
 
 <div class="grid">
@@ -95,10 +99,6 @@ Taught problem decomposition, logic, and computational thinking, guiding student
 **Intern — UC Merced CalTeach Program** (Jul–Aug 2024)  
 Developed Python/Jupyter-based visualizations of dark matter data with Astropy and Matplotlib.  
 Collaborated with faculty to improve K-12 STEM education materials and strategies.  
-
-## Skills
-
-C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tailwind, Git.
 
 ## Résumé
 
