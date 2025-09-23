@@ -9,9 +9,9 @@ layout: default
   <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
     <h1 style="margin:0;">Mario Jimenez Illesca</h1>
-    <p style="margin:4px 0 0 0;">CS @ SFSU · Full-stack dev · Interested in AI/VR and Biotech</p>
+    <p style="margin:4px 0 0 0;">CS @ SFSU · Full-stack dev · Interested in Machine Learning, AI/VR and Biotech</p>
     <p style="margin:4px 0 0 0;">
-      <a href="mailto:mariojillesca@gmail.com">Email</a> · 
+      <a href="mailto:mariojillesca@gmail.com">mariojillesca@gmail.com</a> · 
       <a href="https://github.com/nochinxx">GitHub</a> · 
       <a href="https://www.linkedin.com/in/mario-jimenez-7b9683206/">LinkedIn</a> · 
       <a href="/blog/">Blog</a>
