@@ -7,13 +7,7 @@ title: Blog
 
 <header class="bg-[#111827] text-white p-6 flex justify-between items-center">
   <div>
-    <h1 class="text-3xl font-semibold">{{ page.title }}</h1>
-    <p class="mt-1 text-sm">All posts</p>
-  </div>
-  <div class="flex justify-between items-center mb-6">
-    <a href="/" class="text-white-600 hover:text-indigo-800 font-semibold flex items-center">
-      ← Back
-    </a>
+    <h1 class="text-3xl font-semibold">All posts</h1>
   </div>
 </header>
 
@@ -26,4 +20,10 @@ title: Blog
       </li>
     {% endfor %}
   </ul>
+
+  <div class="flex justify-between items-center mb-6">
+    <a href="/" class="text-white-600 hover:text-indigo-800 font-semibold flex items-center">
+      ← Back
+    </a>
+  </div>
 </main>
