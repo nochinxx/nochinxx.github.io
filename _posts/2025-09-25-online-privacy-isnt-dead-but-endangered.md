@@ -23,8 +23,8 @@ The Facebook/Cambridge Analytica scandal showcased how weak guardrails enable ma
 **GDPR (EU, 2018)** set a stronger default: **opt-in consent**, data access and portability rights, the **right to be forgotten**, and **72-hour breach notifications** backed by fines up to €20M (or 4% of global revenue).  
 **CCPA (California)** moves the U.S. forward but is narrower: it’s largely **opt-out** via “Do Not Sell” and focuses on access/deletion. It’s a start—but it’s state-level, uneven, and looser than GDPR. The U.S. will need **federal** action to harmonize and strengthen rights.
 
-## Tech helps—imperfectly
-Privacy-forward defaults (private search, tracker-blocking, E2E messaging) help. But vulnerabilities and misconfigurations remain, and many platforms still centralize sensitive data. That’s why **law + design + user habits** have to work together: none of them is sufficient on its own.
+## Tech helps (imperfectly)
+Privacy-forward defaults (private search, tracker-blocking, E2E messaging) help. But vulnerabilities and misconfigurations remain. That’s why **law + design + user habits** have to work together: none of them is sufficient on its own.
 
 ## Where we go from here
 To keep privacy alive, we should push for:
