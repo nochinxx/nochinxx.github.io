@@ -66,4 +66,4 @@ AI lowers barriers and speeds creation, but it also demands responsibility. The 
 ---
 
 *Adapted from my essay “Who Owns It?” (CSC 300, San Francisco State University, 2025). Sources include Harvard Business Review, Communications Lawyer, ACM Transactions on Software Engineering and Methodology, and the U.S. Copyright Office.*
-[*Download full essay (PDF)*](/assets/documents/Who-Owns-It.pdf)
+[**Download full essay (PDF)**](/assets/documents/Who-Owns-It.pdf)
