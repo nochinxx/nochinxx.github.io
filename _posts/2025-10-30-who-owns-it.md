@@ -7,14 +7,16 @@ excerpt: "AI can now write usable code in seconds—but who owns the final produ
 permalink: /posts/who-owns-it/
 ---
 
-Artificial intelligence can now generate functional code in seconds, reducing the need for large engineering teams. Tools like GitHub Copilot and ChatGPT have made it possible for anyone with an idea to build an application—even without a computer science background. This democratization of development marks a revolutionary shift: **creativity, not coding ability, is now the true barrier to entry.**  
+Artificial intelligence can now generate functional code in seconds, reducing the need for large engineering teams. Tools like GitHub Copilot and ChatGPT have made it possible for anyone with an idea to build an application—even without a computer science background. This democratization of development marks a revolutionary shift: **creativity, not coding ability, is now the true barrier to entry.**
 
 Yet as the power to create software becomes more accessible, the **legal and ethical boundaries of authorship and ownership** grow more uncertain. If an app is built with the help of AI, who owns the final product—the developer, the machine, or the company behind the tool?
 
 ---
 
 ## The New Reality of AI-Assisted Creation
-Generative AI has lowered the technical barrier to entry, but the backbone of any good app still depends on design decisions and human intent. As Appel et al. write, *“Generative AI will change the nature of content creation, enabling many to do what, until now, only a few had the skills or technology to accomplish.”*  
+Generative AI has lowered the technical barrier to entry, but the backbone of any good app still depends on design decisions and human intent.  
+
+In their article for *Harvard Business Review*, Gil Appel, Juliana Neelbauer, and David Schweidel predict that “Generative AI will change the nature of content creation, enabling many to do what, until now, only a few had the skills or advanced technology to accomplish at high speed.”  
 
 From my own experience using Copilot and ChatGPT, this change feels like a balance between automation and authorship. Unclear prompts often produce messy or repetitive code, so I now focus first on refining my product’s structure and logic before generating anything. Unlike traditional development—where I would start small, mock a local database, and expand gradually—AI tools push me to think in broader design terms. My role shifts from writing every line to defining direction, like a designer guiding an assistant who writes in syntax.  
 
@@ -23,22 +25,27 @@ I see this transformation as similar to Tesla’s factories, where robots handle
 ---
 
 ## Where the Law Stands
-Intellectual property (IP) law still centers on **human creativity.** It divides protection into four types:  
+Intellectual property (IP) law still centers on **human creativity.** It divides protection into four main categories:
+
 - **Copyright** – protects creative expression like code or design.  
 - **Patent** – protects new inventions and must list a natural person as the inventor.  
 - **Trademark** – protects brand names and logos.  
-- **Trade secret** – protects confidential processes that give a competitive edge.  
+- **Trade secret** – protects confidential processes that provide a competitive advantage.  
 
-When I built my latest app, [goalsforme.com](#), I wasn’t thinking about IP at all. Writing this paper made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.  
+As my professor Daniel Tomasevich explained in his *Intellectual Property: Principles and Protection* lecture, these categories aim to balance protection with innovation.  
 
-Under U.S. law, only human authors can hold copyright. The *Thaler v. Perlmutter* case confirmed that “human authorship is an essential part of a valid copyright claim.” The U.S. Copyright Office has even rejected works lacking “meaningful human input.” In other words, unedited, fully AI-generated code cannot be copyrighted, but human modifications and organization of that code can. Those human edits become derivative works—and therefore protectable.
+When I built my latest app, [goalsforme.com](#), I wasn’t thinking about IP at all. Writing this paper made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.
+
+The U.S. Copyright Office has stated that it will not register works lacking “meaningful human input,” a position reaffirmed by the federal case *Thaler v. Perlmutter* (2023), which held that “human authorship is an essential part of a valid copyright claim.” As *Communications Lawyer* authors Rosenfeld, Chamusco, and Farley explain, courts view copyright as an incentive meant for humans—not for machines.  
+
+This means that unedited, fully AI-generated code cannot be copyrighted. However, as the U.S. Copyright Office’s *Copyright and Artificial Intelligence: Part 2* clarifies, when developers “modify material originally generated by AI technology to such a degree that the modifications meet the standard for copyright protection,” those human changes qualify for protection. In other words, your edits and organization matter.
 
 ---
 
 ## The Benefits and the Risks
-AI tools accelerate development and open the field to more people, but they also create new legal gray zones. Models trained on vast, sometimes unlicensed datasets may reproduce copyrighted material without attribution. That problem surfaced in the **GitHub Copilot** lawsuits, which claim the tool reused open-source code.  
+AI tools accelerate development and open the field to more people, but they also create new legal gray zones. Models trained on vast, sometimes unlicensed datasets may reproduce copyrighted material without attribution. That issue is at the heart of the ongoing **GitHub Copilot** litigation, which alleges that open-source code was reused without credit (Stalnaker et al., *ACM Transactions on Software Engineering and Methodology*).  
 
-As Bharati notes, “The implications of AI on IP rights are far reaching.” Legal systems worldwide are still deciding whether rights belong to the user, the model’s developer, or the data owners.  
+As Dr. Rahul Kailas Bharati explains in *AI and Intellectual Property: Legal Frameworks and Future Directions*, “The implications of AI on IP rights are far reaching, touching upon various aspects of copyright, patent, trade secret, and trademark law. As AI continues to evolve, legal systems worldwide are grappling with fundamental questions about the nature of creativity, inventorship, and ownership.”  
 
 From experience, I’ve learned that AI rarely writes perfect code. It often gives working snippets that need heavy editing to fit my project’s structure. I didn’t document those changes at first, but I now see that doing so is essential to prove authorship. AI also became an unexpected teacher—it showed me how the same logic could appear in Python before I rewrote it in TypeScript. That blend of correction and learning revealed how much of my work depends on **both human judgment and machine output.**
 
@@ -58,6 +65,5 @@ AI lowers barriers and speeds creation, but it also demands responsibility. The 
 
 ---
 
-*Adapted from my essay “Who Owns It?” (CSC 300, San Francisco State University, 2025).*
-[Download full essay (PDF)](/assets/documents/who-owns-it.pdf)
-
+*Adapted from my essay “Who Owns It?” (CSC 300, San Francisco State University, 2025). Sources include Harvard Business Review, Communications Lawyer, ACM Transactions on Software Engineering and Methodology, and the U.S. Copyright Office.*
+[*Download full essay (PDF)*](/assets/documents/Who-Owns-It.pdf)
