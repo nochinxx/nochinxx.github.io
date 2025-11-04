@@ -74,7 +74,7 @@ C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tai
 ## Blog Highlights
 
 <ul>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br>
     </li>
