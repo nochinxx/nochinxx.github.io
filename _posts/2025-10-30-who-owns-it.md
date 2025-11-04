@@ -34,7 +34,7 @@ Intellectual property (IP) law still centers on **human creativity.** It divides
 
 As my professor Daniel Tomasevich explained in his *Intellectual Property: Principles and Protection* lecture, these categories aim to balance protection with innovation.  
 
-When I built my latest app, [**goalsforme.com**](goalsforme.com), I wasn’t thinking about IP at all. Writing this article made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.
+When I built my latest app, [**goalsforme.com**](https://goalsforme.com), I wasn’t thinking about IP at all. Writing this article made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.
 
 The U.S. Copyright Office has stated that it will not register works lacking “meaningful human input,” a position reaffirmed by the federal case *Thaler v. Perlmutter* (2023), which held that “human authorship is an essential part of a valid copyright claim.” As *Communications Lawyer* authors Rosenfeld, Chamusco, and Farley explain, courts view copyright as an incentive meant for humans not for machines.  
 
