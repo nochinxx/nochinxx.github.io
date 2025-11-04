@@ -7,7 +7,7 @@ excerpt: "AI can now write usable code in seconds—but who owns the final produ
 permalink: /posts/who-owns-it/
 ---
 
-Artificial intelligence can now generate functional code in seconds, reducing the need for large engineering teams. Tools like GitHub Copilot and ChatGPT have made it possible for anyone with an idea to build an application—even without a computer science background. This democratization of development marks a revolutionary shift: **creativity, not coding ability, is now the true barrier to entry.**
+Artificial intelligence can now generate functional code in seconds, reducing the need for large engineering teams. Tools like GitHub Copilot and ChatGPT have made it possible for anyone with an idea to build an application (even without a computer science background). This democratization of development marks a revolutionary shift: **creativity, not coding ability, is now the true barrier to entry.**
 
 Yet as the power to create software becomes more accessible, the **legal and ethical boundaries of authorship and ownership** grow more uncertain. If an app is built with the help of AI, who owns the final product—the developer, the machine, or the company behind the tool?
 
@@ -18,7 +18,7 @@ Generative AI has lowered the technical barrier to entry, but the backbone of an
 
 In their article for *Harvard Business Review*, Gil Appel, Juliana Neelbauer, and David Schweidel predict that “Generative AI will change the nature of content creation, enabling many to do what, until now, only a few had the skills or advanced technology to accomplish at high speed.”  
 
-From my own experience using Copilot and ChatGPT, this change feels like a balance between automation and authorship. Unclear prompts often produce messy or repetitive code, so I now focus first on refining my product’s structure and logic before generating anything. Unlike traditional development—where I would start small, mock a local database, and expand gradually—AI tools push me to think in broader design terms. My role shifts from writing every line to defining direction, like a designer guiding an assistant who writes in syntax.  
+From my own experience using Copilot and ChatGPT, this change feels like a balance between automation and authorship. Unclear prompts often produce messy or repetitive code, so I now focus first on refining my product’s structure and logic before generating anything. Unlike traditional development (where I would start small, mock a local database, and expand gradually) AI tools push me to think in broader design terms. My role shifts from writing every line to defining direction, like a designer guiding an assistant who writes in syntax.  
 
 I see this transformation as similar to Tesla’s factories, where robots handle repetitive work while people focus on design and quality. In software creation, AI takes over mechanical coding tasks while developers refine vision and solve problems. But this progress raises an old question in a new form: **what does “ownership” mean when machines share in the creative process?**
 
@@ -34,9 +34,9 @@ Intellectual property (IP) law still centers on **human creativity.** It divides
 
 As my professor Daniel Tomasevich explained in his *Intellectual Property: Principles and Protection* lecture, these categories aim to balance protection with innovation.  
 
-When I built my latest app, [goalsforme.com](#), I wasn’t thinking about IP at all. Writing this paper made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.
+When I built my latest app, [**goalsforme.com**](goalsforme.com), I wasn’t thinking about IP at all. Writing this article made me realize that documentation and authorship are part of building responsibly. For developers, copyright is especially important: it safeguards the **interface, flow, and design choices** that make an app unique.
 
-The U.S. Copyright Office has stated that it will not register works lacking “meaningful human input,” a position reaffirmed by the federal case *Thaler v. Perlmutter* (2023), which held that “human authorship is an essential part of a valid copyright claim.” As *Communications Lawyer* authors Rosenfeld, Chamusco, and Farley explain, courts view copyright as an incentive meant for humans—not for machines.  
+The U.S. Copyright Office has stated that it will not register works lacking “meaningful human input,” a position reaffirmed by the federal case *Thaler v. Perlmutter* (2023), which held that “human authorship is an essential part of a valid copyright claim.” As *Communications Lawyer* authors Rosenfeld, Chamusco, and Farley explain, courts view copyright as an incentive meant for humans not for machines.  
 
 This means that unedited, fully AI-generated code cannot be copyrighted. However, as the U.S. Copyright Office’s *Copyright and Artificial Intelligence: Part 2* clarifies, when developers “modify material originally generated by AI technology to such a degree that the modifications meet the standard for copyright protection,” those human changes qualify for protection. In other words, your edits and organization matter.
 
@@ -47,21 +47,21 @@ AI tools accelerate development and open the field to more people, but they also
 
 As Dr. Rahul Kailas Bharati explains in *AI and Intellectual Property: Legal Frameworks and Future Directions*, “The implications of AI on IP rights are far reaching, touching upon various aspects of copyright, patent, trade secret, and trademark law. As AI continues to evolve, legal systems worldwide are grappling with fundamental questions about the nature of creativity, inventorship, and ownership.”  
 
-From experience, I’ve learned that AI rarely writes perfect code. It often gives working snippets that need heavy editing to fit my project’s structure. I didn’t document those changes at first, but I now see that doing so is essential to prove authorship. AI also became an unexpected teacher—it showed me how the same logic could appear in Python before I rewrote it in TypeScript. That blend of correction and learning revealed how much of my work depends on **both human judgment and machine output.**
+From experience, I’ve learned that AI rarely writes perfect code. It often gives working snippets that need heavy editing to fit my project’s structure. I didn’t document those changes at first, but I now see that doing so is essential to prove authorship. AI also became a teacher, it showed me how the same logic could appear in Python before I rewrote it in TypeScript. That blend of correction and learning revealed how much of my work depends on **both human judgment and machine output.**
 
 ---
 
 ## Lessons for Developers
-Writing this paper changed how I see AI as a creative partner. It made me more intentional about tracking generated code and corrections, since those details show where my contribution begins. AI helps bridge imagination and execution; it turns ideas that once stayed on my computer into products that reach people.  
+Writing this article changed how I see AI as a creative partner. It made me more intentional about tracking generated code and corrections, since those details show where my contribution begins. AI helps bridge imagination and execution; it turns ideas that once stayed on my computer into products that reach people.  
 
 To work responsibly with AI:  
-1. **Document everything.** Record what the AI generated and what you changed.  
-2. **Read the licenses** of the tools you use.  
-3. **Add creativity.** Modify and expand generated code rather than using it unchanged.  
-4. **Protect your brand** through copyright or trademarks.  
-5. **Stay informed** as laws evolve.  
+1. **Document everything -** Record what the AI generated and what you changed.  
+2. **Read the licenses -** of the tools you use.  
+3. **Add creativity -** Modify and expand generated code rather than using it unchanged.  
+4. **Protect your brand -** through copyright or trademarks.  
+5. **Stay informed -** as laws evolve.  
 
-AI lowers barriers and speeds creation, but it also demands responsibility. The future of software belongs to those who combine **human vision with legal awareness**—because collaboration with AI does not erase originality; it demands clearer proof of it.
+AI lowers barriers and speeds creation, but it also demands responsibility. The future of software belongs to those who combine **human vision with legal awareness,** because collaboration with AI does not erase originality, it demands clearer proof of it.
 
 ---
 
