@@ -41,3 +41,5 @@ assets/videos/
 assets/images/dayton/*.mov
 assets/images/dayton/*.avi
 assets/images/dayton/*.tmp
+.DS_Store
+assets/.DS_Store
