@@ -4,7 +4,6 @@ layout: default
 
 <link rel="stylesheet" href="/assets/style.css">
 
-
 <div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
   <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
   <div>
@@ -27,6 +26,24 @@ C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tai
 
 <div class="grid">
   <div class="project-card">
+    <h3><a href="{{ '/projects/goalsforme/' | relative_url }}">
+      goalsforme.com
+    </a>
+      <span class="badge">Next.js · React · Gemini · Firebase · Firestore </span>
+    </h3>
+    <p>
+      AI-assisted goal planner and habit tracker built with Next.js and Firebase.  
+      Transforms natural-language goals into structured projects and deadlines, with upcoming real-time collaboration.
+    </p>
+    <p>
+      <a href="https://github.com/nochinxx/goals">Code</a>
+      <a href="https://goalsforme.com">Live</a>
+    </p>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="project-card">
     <h3><a href="{{ '/projects/ucsd-data-structures/' | relative_url }}">
       UCSD Data Structures & Performance
     </a>
@@ -42,7 +59,6 @@ C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tai
     </p>
   </div>
 </div>
-
 
 <div class="grid">
   <div class="project-card">
@@ -86,19 +102,19 @@ C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tai
 **Software Developer (Contract) — Dayton Financial** (Apr–Jun 2025)  
 Designed and deployed a production-ready quoting platform replacing complex spreadsheet workflows, saving thousands in operational costs.  
 Built real-time buyer-seller dashboards with interactive spreadsheet UIs featuring live updates, cell-level editing, and secure role-based access.  
-*Stack: Next.js, TypeScript, React, Firebase, TanStack Table.*
+_Stack: Next.js, TypeScript, React, Firebase, TanStack Table._
 
 **Intern — Boyd Lighting** (Jun–Aug 2025)  
 Digitized and structured a 1,000+ product archive into a searchable knowledge base, improving sales enablement.  
-Proposed VR-powered virtual showroom and AI-driven search tool concepts to enhance product discovery.  
+Proposed VR-powered virtual showroom and AI-driven search tool concepts to enhance product discovery.
 
 **Coding Teacher — Marin Horizon Middle School** (Sep 2025–Present)  
 Designed and delivered a custom coding curriculum (Scratch) for 6th–8th graders.  
-Taught problem decomposition, logic, and computational thinking, guiding students in building interactive projects.  
+Taught problem decomposition, logic, and computational thinking, guiding students in building interactive projects.
 
 **Intern — UC Merced CalTeach Program** (Jul–Aug 2024)  
 Developed Python/Jupyter-based visualizations of dark matter data with Astropy and Matplotlib.  
-Collaborated with faculty to improve K-12 STEM education materials and strategies.  
+Collaborated with faculty to improve K-12 STEM education materials and strategies.
 
 ## Résumé
 
@@ -106,4 +122,3 @@ Collaborated with faculty to improve K-12 STEM education materials and strategie
   <a href="assets/documents/SepResume.pdf">📄 Download PDF</a><br>
   <span>Email me for referrals</span>
 </p>
-
