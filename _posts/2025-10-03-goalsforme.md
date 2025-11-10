@@ -62,10 +62,11 @@ The system uses **AI prompting pipelines** (Gemini 2.5 Flash) to expand short us
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Coming up </h2>
-
-- Email invite & shared goal infrastructure  
-- Integrate cross-user dashboards and AI-assisted team planning  
-- Implement analytics dashboard: habit streaks, project progress forecasting  
+<ul class="list-disc ml-6">
+<li>Email invite & shared goal infrastructure  </li>
+<li>Integrate cross-user dashboards and AI-assisted team planning </li>
+<li>Implement analytics dashboard: habit streaks, project progress forecasting </li>
+</ul>
 
 ---
 
