@@ -20,7 +20,7 @@ layout: default
 
 ## Skills
 
-C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Tailwind, Git.
+C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Git.
 
 ## Projects
 
