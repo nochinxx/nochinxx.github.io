@@ -119,6 +119,6 @@ Collaborated with faculty to improve K-12 STEM education materials and strategie
 ## Résumé
 
 <p>
-  <a href="assets/documents/SepResume.pdf">📄 Download PDF</a><br>
+  <a href="assets/documents/resume.pdf">📄 Download PDF</a><br>
   <span>Email me for referrals</span>
 </p>
