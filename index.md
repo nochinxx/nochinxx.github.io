@@ -102,7 +102,7 @@ Broader shipped work, open-source contributions, and earlier projects that still
   {% endfor %}
 </div>
 
-## Writing
+## Blog
 
 <div class="grid card-grid">
   {% for item in writing %}

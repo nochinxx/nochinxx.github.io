@@ -6,7 +6,7 @@ permalink: /posts/prs-on-edge/
 ---
 
 <p>
-  PRs on Edge is a generative UI agent that reads your open GitHub pull requests and dynamically renders the right interface for the moment: a swipe stack, a risk matrix, or a contributor-focused view.
+  PRs on Edge is a generative UI agent that reads your open GitHub pull requests and dynamically renders the right interface for the moment: a swipe stack, a risk matrix, a contributor-focused view, a dependency graph, or a category-grouped board.
 </p>
 
 <p>
@@ -30,18 +30,37 @@ permalink: /posts/prs-on-edge/
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> What We Built </h2>
 
 <p>
-  The agent reads your open PRs and chooses one of three generative views based on what it finds.
+  The agent reads your open PRs and chooses one of five generative views based on what it finds.
 </p>
 
 <ul class="list-disc ml-6">
   <li><b>SwipeStack</b> — used when there are fewer than 10 open PRs, enabling card-by-card review with approve, reject, or skip actions.</li>
   <li><b>RiskMatrix</b> — used when many high-risk PRs are detected, surfacing a color-coded grid sorted by risk.</li>
   <li><b>ContributorFocus</b> — used when one or two authors dominate the queue, grouping PRs by contributor and merge history.</li>
+  <li><b>DependencyGraph</b> — used when merge order or linked pull requests matter more than raw queue length.</li>
+  <li><b>CategoryGroup</b> — used when the fastest way to reduce noise is clustering PRs by feature, testing, maintenance, and similar classes.</li>
 </ul>
 
 <p>
   The user can still ask the agent to switch views or drill into a specific PR at any time, but the default surface is chosen by the system rather than configured manually.
 </p>
+
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> The Five Views </h2>
+
+<p><b>SwipeStack</b> is the fastest review mode: one pull request at a time, with explicit approve, skip, or inspect actions.</p>
+<img class="rounded-lg shadow-lg mt-4 mb-8" src="/assets/images/projects/prs-edge-swipe.png" alt="PRs on Edge swipe mode">
+
+<p><b>RiskMatrix</b> turns the queue into a severity surface so the reviewer can see whether the real problem is low-risk maintenance or a handful of changes that deserve immediate attention.</p>
+<img class="rounded-lg shadow-lg mt-4 mb-8" src="/assets/images/projects/prs-edge-risk-matrix.png" alt="PRs on Edge risk matrix mode">
+
+<p><b>ContributorFocus</b> becomes useful when one contributor or team owns a disproportionate share of open work and the review bottleneck is coordination, not just prioritization.</p>
+<img class="rounded-lg shadow-lg mt-4 mb-8" src="/assets/images/projects/prs-edge-contributor-focus.png" alt="PRs on Edge contributor focus mode">
+
+<p><b>DependencyGraph</b> is the structure-aware view: it shows whether PRs are independent or whether merge order matters because changes reference or block one another.</p>
+<img class="rounded-lg shadow-lg mt-4 mb-8" src="/assets/images/projects/prs-edge-dependency-graph.png" alt="PRs on Edge dependency graph mode">
+
+<p><b>CategoryGroup</b> is the batching view, grouping PRs by feature, testing, maintenance, and similar patterns so reviewers can process like with like.</p>
+<img class="rounded-lg shadow-lg mt-4 mb-8" src="/assets/images/projects/prs-edge-category-group.png" alt="PRs on Edge category group mode">
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Risk Scoring </h2>
 

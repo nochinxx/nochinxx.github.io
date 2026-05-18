@@ -8,7 +8,7 @@ title: Blog
 
 <header class="bg-[#111827] text-white p-6 flex justify-between items-center">
   <div>
-    <h1 class="text-3xl font-semibold">Writing</h1>
+    <h1 class="text-3xl font-semibold">Blog</h1>
   </div>
 </header>
 
