@@ -6,6 +6,19 @@ tags: [ai, development, apps, webapps, selfhelp]
 permalink: /projects/goalsforme/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Next.js</span>
+  <span class="tag">React</span>
+  <span class="tag">Firebase Auth</span>
+  <span class="tag">Firestore</span>
+  <span class="tag">TypeScript</span>
+  <span class="tag">Vercel</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 **goalsforme.com** is a structured workflow system for planning and tracking personal goals through a hierarchy of **goals, projects, tasks, and habits**.  
@@ -36,16 +49,6 @@ It currently has around **70 registered users**, and the product direction inclu
 </ul>
 
 <img class="rounded-lg shadow-lg mt-6 mb-8" src="/assets/images/projects/goalsforme-analytics.png" alt="goalsforme analytics dashboard">
-
----
-
-<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Technical Stack </h2>
-
-- **Frontend:** Next.js, React  
-- **Backend:** Firebase Auth, Firestore  
-- **Data model:** goals, projects, tasks, habits  
-- **Hosting:** Vercel  
-- **Languages:** TypeScript, JavaScript  
 
 ---
 

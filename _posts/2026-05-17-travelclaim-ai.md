@@ -1,8 +1,22 @@
 ---
 layout: post
 title: "TravelClaim AI"
-date: 2026-05-17
+date: 2026-04-26
 permalink: /projects/travelclaim-ai/
+---
+
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Next.js</span>
+  <span class="tag">Tailwind CSS</span>
+  <span class="tag">Supabase</span>
+  <span class="tag">pgvector</span>
+  <span class="tag">Gemini</span>
+  <span class="tag">Google Vision OCR</span>
+  <span class="tag">Python PDF filling</span>
+</div>
+
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
@@ -51,13 +65,6 @@ This mattered because it grounded the prototype in a real administrative pain po
   <img class="rounded-lg shadow-lg" src="/assets/images/projects/travelclaim-rag.png" alt="TravelClaim AI regulations retrieval interface">
   <img class="rounded-lg shadow-lg" src="/assets/images/projects/travelclaim-dd1351.png" alt="TravelClaim AI DD Form 1351-2 preview">
 </div>
-
----
-
-<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Stack </h2>
-
-- **Prototype stack direction:** Next.js, Tailwind, Supabase, pgvector or ChromaDB, OpenAI embeddings, Claude, pdf-lib or PyMuPDF, Vercel/Railway/Render  
-- **Repo implementation:** Next.js, Supabase, pgvector, Gemini, Google Vision OCR, Python PDF filling
 
 ---
 

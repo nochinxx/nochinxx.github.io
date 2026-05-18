@@ -5,6 +5,18 @@ date: 2025-09-17
 permalink: /projects/ucsd-data-structures/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Java</span>
+  <span class="tag">Algorithms</span>
+  <span class="tag">Data structures</span>
+  <span class="tag">JUnit</span>
+  <span class="tag">Performance benchmarking</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 As part of UC San Diego’s *Data Structures and Performance* course, I completed a series of 
@@ -44,5 +56,4 @@ mirroring the skills expected in entry-level industry roles.
 - Unit testing: JUnit test suites, edge-case validation  
 - Complexity analysis: predicted & benchmarked runtimes  
 - Object-oriented programming in Java  
-
 

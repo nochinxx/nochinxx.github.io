@@ -5,6 +5,18 @@ date: 2026-05-17
 permalink: /projects/gatorlend/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">XRPL</span>
+  <span class="tag">Wallet authentication</span>
+  <span class="tag">NFT minting</span>
+  <span class="tag">Web platform</span>
+  <span class="tag">Product validation</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 GatorLend is a platform for structuring ownership and transfer of real-world assets, starting with campus items such as textbooks, calculators, and lab equipment. The system represents those assets on XRPL and treats exchange as a transparent record-keeping and coordination problem.

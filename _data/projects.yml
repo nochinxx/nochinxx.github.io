@@ -6,15 +6,14 @@
   summary: A 12-agent research workflow that used disagreement, verification, and critique loops to make financial analysis more reliable.
   stack:
     - Perplexity Computer
-    - Multi-agent orchestration
-    - Financial modeling
-    - Verification workflows
-    - Interactive thesis app
+    - Perplexity Spaces / App
+    - LLM agents
   tags:
     - AI workflows
-    - Systems design
+    - Multi-agent systems
     - Finance
     - Verification
+    - Critique loops
   live_url: https://www.perplexity.ai/computer/a/elv-investment-thesis-stock-pi-hLArTzcNRfaEotogjuAjfQ
   github_url:
   article_url: /posts/five-ai-agents-disagreed/
@@ -34,13 +33,12 @@
     - TypeScript
     - CopilotKit
     - GitHub API
-    - Generative UI
     - pgvector
   tags:
-    - AI workflows
     - Frontend systems
+    - Generative UI
     - Developer tools
-    - Edge interfaces
+    - AI workflows
   live_url:
   github_url: https://github.com/nochinxx/PRs-on-edge
   article_url: /posts/prs-on-edge/
@@ -55,16 +53,16 @@
   project_url: /projects/gatorlend/
   summary: A campus marketplace exploring how student asset exchange can evolve toward verifiable ownership and transfer systems.
   stack:
-    - XRPL
+    - Next.js
+    - Supabase
+    - XRPL testnet
     - Wallet authentication
-    - NFT minting
-    - Product validation
-    - Web platform
   tags:
     - Fintech
-    - Blockchain
-    - Systems design
+    - Marketplace
+    - Asset ownership
     - Product engineering
+    - Blockchain
   live_url: https://fin-gatorlend.com
   github_url:
   article_url: /posts/gatorlend-blackrock-reflection/
@@ -84,11 +82,12 @@
     - Firebase Auth
     - Firestore
     - TypeScript
+    - Gemini API
   tags:
-    - Productivity systems
-    - Data modeling
     - Full-stack
+    - Realtime data
     - AI-assisted planning
+    - Product design
   live_url: https://goalsforme.com
   github_url: https://github.com/nochinxx/goals
   article_url: /projects/goalsforme/
@@ -108,11 +107,13 @@
     - Firebase
     - Firestore
     - TanStack Table
+    - TypeScript
   tags:
-    - Fintech
-    - Data-heavy UI
-    - Realtime collaboration
-    - Operations dashboard
+    - Dashboard UI
+    - Realtime data
+    - Full-stack
+    - Private production
+    - Data Heavy UI
   live_url:
   github_url:
   article_url: /projects/dayton-sheets/
@@ -131,14 +132,13 @@
     - Tailwind CSS
     - Supabase
     - pgvector
-    - Gemini
-    - Google Vision OCR
-    - PDF workflows
+    - LLM APIs
+    - OCR / Vision APIs
+    - PDF generation
   tags:
     - Agentic AI
     - RAG
     - Automation
-    - PDF workflows
     - Hackathon
   live_url:
   github_url: https://github.com/nochinxx/travelclaimAI
@@ -164,7 +164,6 @@
     - Next.js
     - MUI
     - Product UI
-    - Content interface
     - Prototype
   live_url:
   github_url:
@@ -182,13 +181,12 @@
   stack:
     - Python
     - Plotly.py
-    - Open source
-    - Debugging
-    - Data visualization
+    - pytest
+    - Git
   tags:
-    - OSS
-    - Data interfaces
-    - Python
+    - Open source
+    - Data visualization
+    - Debugging
     - Contribution workflow
   live_url: https://github.com/plotly/plotly.py
   github_url: https://github.com/plotly/plotly.py
@@ -204,13 +202,14 @@
   project_url:
   summary: Nutrition dashboard integrating USDA data with macro tracking and visual progress views.
   stack:
+    - Next.js
     - React
     - Firebase
     - USDA API
   tags:
-    - Student project
-    - Health
-    - Dashboard
+    - Dashboard UI
+    - Data visualization
+    - API integration
   live_url: https://nutrition-nextjs.vercel.app/
   github_url: https://github.com/nima64/nutrition-nextjs
   article_url:
@@ -226,12 +225,12 @@
   summary: Java data structures projects covering tries, linked lists, autocomplete, testing, and performance.
   stack:
     - Java
-    - Algorithms
-    - Data structures
     - JUnit
   tags:
-    - Coursework
-    - Foundations
+    - Backend
+    - Algorithms
+    - Data structures
+    - Java
     - Performance
   live_url:
   github_url: https://github.com/nochinxx/ucsd-data-structures

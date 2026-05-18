@@ -5,6 +5,18 @@ date: 2026-05-17
 permalink: /projects/plotly-py-contribution/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Python</span>
+  <span class="tag">Plotly.py</span>
+  <span class="tag">Open source</span>
+  <span class="tag">Debugging</span>
+  <span class="tag">Data visualization</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 This contribution focused on a real bug inside Plotly.py’s autoshape helpers: labeled vertical lines on datetime axes could crash because the library tried to compute annotation placement with arithmetic that did not generalize beyond numeric coordinates.

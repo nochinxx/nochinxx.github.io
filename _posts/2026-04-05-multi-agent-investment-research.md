@@ -5,6 +5,18 @@ date: 2026-04-05
 permalink: /projects/multi-agent-investment-research/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Perplexity Computer</span>
+  <span class="tag">Multi-agent orchestration</span>
+  <span class="tag">Financial modeling</span>
+  <span class="tag">Verification workflows</span>
+  <span class="tag">Interactive thesis app</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 This project treats investment research as a systems problem rather than a single-prompt exercise. I built a multi-agent pipeline that generates competing hypotheses, checks factual claims across multiple runs, escalates disagreements for review, and compiles the result into an interactive thesis app.

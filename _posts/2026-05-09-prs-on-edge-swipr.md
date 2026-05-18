@@ -5,6 +5,20 @@ date: 2026-05-09
 permalink: /projects/prs-on-edge-swipr/
 ---
 
+<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Tech Stack </h2>
+
+<div class="tag-row">
+  <span class="tag">Next.js</span>
+  <span class="tag">React</span>
+  <span class="tag">TypeScript</span>
+  <span class="tag">CopilotKit</span>
+  <span class="tag">GitHub API</span>
+  <span class="tag">Generative UI</span>
+  <span class="tag">pgvector</span>
+</div>
+
+---
+
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
 SwiPR / PRs on Edge captures two iterations of the same core idea: using AI to make pull request review faster, safer, and more context-aware.
@@ -38,10 +52,6 @@ SwiPR started as context infrastructure for the merge decision. PRs on Edge late
   <li><b>Queue classification</b> — groups pull requests by type, age, contributor concentration, and dependency chains before rendering.</li>
   <li><b>Generative UI focus</b> — the main output is not a static dashboard or plain chat answer, but an interface the agent chooses at runtime.</li>
 </ul>
-
-<h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Stack </h2>
-
-Across both iterations: Next.js, React, TypeScript, GitHub API integrations, CopilotKit, vector retrieval patterns, and runtime interface selection.
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Explore the Work </h2>
 
