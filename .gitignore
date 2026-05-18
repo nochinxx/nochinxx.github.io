@@ -42,6 +42,11 @@ Gemfile.lock
 
 # Large media or data files (optional)
 assets/videos/
+!assets/videos/
+assets/videos/*
+!assets/videos/dayton/
+assets/videos/dayton/*
+!assets/videos/dayton/demo-web.mp4
 assets/images/dayton/*.mov
 assets/images/dayton/*.avi
 assets/images/dayton/*.tmp
