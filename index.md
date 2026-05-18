@@ -18,7 +18,7 @@ layout: default
     <p style="margin:4px 0 0 0;">
       <a href="mailto:mariojillesca@gmail.com">mariojillesca@gmail.com</a> · 
       <a href="https://github.com/nochinxx">GitHub</a> · 
-      <a href="https://www.linkedin.com/in/mario-jimenez-7b9683206/">LinkedIn</a> · 
+      <a href="https://www.linkedin.com/in/mariojillesca/">LinkedIn</a> · 
       <a href="/blog/">Blog</a>
     </p>
   </div>
