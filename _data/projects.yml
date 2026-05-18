@@ -33,6 +33,9 @@
     - TypeScript
     - CopilotKit
     - GitHub API
+    - LangGraph
+    - Docker
+    - Gemini
     - pgvector
   tags:
     - Frontend systems
