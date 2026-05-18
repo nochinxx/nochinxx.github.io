@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Building Dayton Sheets — RFQ Tool"
+title: "Dayton Financial RFQ Tool"
 date: 2025-06-20
 permalink: /projects/dayton-sheets/
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
-We built a multi-tenant RFQ and quoting platform featuring buyer/seller dashboards, role-based access, spreadsheet UI, seller magic links, batch updates, and buyer aggregation views.  
+Built for Dayton Financial, this production quoting platform replaced spreadsheet-based RFQ workflows with a structured multi-user system for buyers and sellers.  
 
-This replaced a messy workflow in Google Sheets and saved thousands in operational costs.
+The product centered on data-heavy dashboards, spreadsheet-style editing, role-based access, and real-time collaboration across shared quote workflows. The result was a faster operational process with less manual reconciliation and clearer system visibility for internal users.
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Screenshots & Demo </h2>
 
@@ -19,17 +19,30 @@ This replaced a messy workflow in Google Sheets and saved thousands in operation
 </div>
 
 <div class="flex flex-col md:flex-row gap-6 mb-8">
-  <video class="rounded-lg shadow-lg flex-1" controls autoplay muted loop>
-  <source src="/assets/videos/dayton/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <div class="flex-1">
+    <video
+      class="rounded-lg shadow-lg w-full"
+      controls
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="/assets/images/dayton/webapp.png">
+      <source src="/assets/videos/dayton/demo.mp4" type="video/mp4">
+      <source src="/assets/videos/dayton/demo.mov" type="video/quicktime">
+      Your browser does not support the video tag.
     </video>
+    <p class="mt-2 text-sm text-slate-600">
+      If the embedded video does not play in your browser, <a href="/assets/videos/dayton/demo.mp4">open the MP4 directly</a>.
+    </p>
+  </div>
   <div class="flex-1 flex flex-col justify-center">
-    <h3 class="text-l font-semibold mb-2">Dayton Sheets</h3>
+    <h3 class="text-l font-semibold mb-2">Private/Internal build</h3>
     <p class="mb-2">
-      We converted their laborious process from entering seller data in a buyer sheet into a streamlined full-stack web app.
+      The platform translated a laborious spreadsheet process into a purpose-built quoting system with shared state, cleaner permissions, and more reliable operations.
     </p>
     <p>
-      The vision was to have a master sheet with products where sellers could enter quotes and updates would sync in real-time. Private sheets, master sheet aggregation, and live dashboards made it all possible.
+      Sellers could update quotes directly, buyers could review aggregated views, and the system kept everyone working from the same data model instead of separate sheets.
     </p>
   </div>
 </div>
@@ -45,4 +58,6 @@ This replaced a messy workflow in Google Sheets and saved thousands in operation
   <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">TanStack Table</span>
 </div>
 
-
+<p class="mt-6 text-sm text-slate-600">
+  Public screenshots are available here, but the full product and repository are private/internal.
+</p>

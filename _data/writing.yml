@@ -1,0 +1,63 @@
+- key: five-ai-agents
+  title: How Five AI Agents Disagreed, and Why That Was the Point
+  date: April 5, 2026
+  summary: Why multi-agent disagreement improves research when every conflict gets resolved through verification against primary sources.
+  tags:
+    - Multi-agent systems
+    - Finance
+    - Verification
+    - AI workflows
+  related_project_key: multi-agent-investment-research
+  related_project_title: Multi-Agent Investment Research System
+  related_project_url: /projects/multi-agent-investment-research/
+  internal_url: /posts/five-ai-agents-disagreed/
+  external_url: https://www.linkedin.com/pulse/how-five-ai-agents-disagreed-why-point-mario-jimenez-illesca-igibc/
+  external_label: LinkedIn article
+
+- key: prs-on-edge
+  title: PRs on Edge
+  date: May 9, 2026
+  summary: Building a generative PR review interface that adapts to queue size, contributor patterns, and repository risk.
+  tags:
+    - Generative UI
+    - Developer tools
+    - GitHub
+    - Frontend systems
+  related_project_key: swipr
+  related_project_title: SwiPR / PRs on Edge
+  related_project_url: /projects/prs-on-edge-swipr/
+  internal_url: /posts/prs-on-edge/
+  external_url: https://www.linkedin.com/pulse/prs-edge-mario-jimenez-illesca-tk94c/
+  external_label: LinkedIn article
+
+- key: gatorlend-reflection
+  title: GatorLend / BlackRock conference reflection
+  date: May 2026
+  summary: Reflection on presenting GatorLend at BlackRock and why tokenized ownership systems matter in real financial workflows.
+  tags:
+    - Fintech
+    - XRPL
+    - Tokenization
+    - Reflection
+  related_project_key: gatorlend
+  related_project_title: GatorLend
+  related_project_url: /projects/gatorlend/
+  internal_url: /posts/gatorlend-blackrock-reflection/
+  external_url:
+  external_label:
+
+- key: plotly-writeup
+  title: Plotly.py contribution article
+  date: January 20, 2026
+  summary: How I debugged Plotly.py’s labeled vertical-line crash on datetime axes and refactored the path toward shape.label.
+  tags:
+    - Plotly.py
+    - Python
+    - Open source
+    - Debugging
+  related_project_key: plotly-contribution
+  related_project_title: Plotly.py contribution
+  related_project_url: /projects/plotly-py-contribution/
+  internal_url: /posts/plotly-py-contribution-notes/
+  external_url:
+  external_label:

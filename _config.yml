@@ -3,15 +3,9 @@ title: "Mario Jimenez Illesca"
 description: "CS Student · Developer · Portfolio"
 url: "https://nochinxx.github.io"  # update with your username
 
-# GitHub Pages-safe theme
-remote_theme: pages-themes/cayman@v0.2.0  # clean & modern; GitHub Pages supports this
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
-
-# Navigation (used by the theme)
-show_downloads: false
 
 # Social handles (optional)
 github_username: nochinxx

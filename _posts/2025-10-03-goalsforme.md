@@ -8,44 +8,43 @@ permalink: /projects/goalsforme/
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Overview </h2>
 
-**goalsforme.com** is a full-stack web app I built to help users set, track, and share personal goals in an intelligent and structured way.  
-It combines **AI-assisted planning**, **habit tracking**, and **collaboration tools** — designed to act as a “personal progress system” rather than just a to-do list.
+**goalsforme.com** is a structured workflow system for planning and tracking personal goals through a hierarchy of **goals, projects, tasks, and habits**.  
+Instead of behaving like a simple to-do list, it is designed as a persistent data model for turning broad plans into organized, trackable work.
 
-Technically, the app is powered by **Next.js (React)** on the frontend, **Firebase** for authentication and data persistence, and **Firestore** as a real-time database.  
-The system uses **AI prompting pipelines** (Gemini 2.5 Flash) to expand short user goal inputs into structured projects, tasks, and due dates automatically.
+The app is powered by **Next.js and React** on the frontend, with **Firebase Auth** and **Firestore** supporting authentication, persistence, and synchronization.  
+It currently has around **70 registered users**, and the product direction includes AI-assisted planning features that convert broad goals into more structured execution plans.
+
+<img class="rounded-lg shadow-lg mt-6 mb-8" src="/assets/images/projects/goalsforme-planner.png" alt="goalsforme AI planner preview">
 
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Architecture & Features </h2>
 
 <ul class="list-disc ml-6">
-  <li><b>AI Goal Planner</b> — Parses natural-language goals (e.g. “write my research paper by Nov 1”) into JSON trees of projects and tasks.  
-      Uses Gemini’s structured output to assign deadlines, subtasks, and priorities dynamically.</li>
+  <li><b>Structured hierarchy</b> — Data is modeled around goals, projects, tasks, and habits so users can move from long-term direction to day-to-day execution without losing context.</li>
 
-  <li><b>AI Integration Pipeline</b> — Back-end routes build contextual prompts including current date and goal metadata before passing them to Gemini for schedule planning.</li>
+  <li><b>Realtime system design</b> — Firestore collections and modular app routes support synchronized updates, progress tracking, and future collaboration features.</li>
 
-  <li><b>Serverless Deployment</b> — Hosted on <b>Vercel</b>; leverages edge-functions for API routes and Firebase for real-time sync.</li>
+  <li><b>AI-assisted planning direction</b> — The product explores AI support for turning high-level user goals into structured plans, deadlines, and sub-workflows when the feature is useful.</li>
 
-  <li><b>Habit Engine</b> — Every day there is a habit card that logs progress and generate completion analytics.  
-      Uses Firestore timestamps and Pacific Time utilities to record streaks.</li>
+  <li><b>Habit engine</b> — Daily habit tracking, streak logging, and progress visibility extend the system beyond one-off tasks.</li>
 
-  <li><b>Dashboard & Visualization</b> — Unified dashboard displays both personal and shared goals.  
-      Includes filters, project progress bars, and due-dates.</li>
+  <li><b>Dashboard views</b> — Unified views surface progress, due dates, and execution state across the hierarchy.</li>
 
-  <li><b>Shared Goals & Collaboration</b> — Currently implementing a modular “shared” space where users can invite others via email (Resend API + Firebase Admin).  
-      New users can accept invitations even before registering, making it ideal for clubs or teams.</li>
+  <li><b>Collaboration direction</b> — Shared planning and invite-based workflows are a natural extension of the existing data model.</li>
 
 </ul>
+
+<img class="rounded-lg shadow-lg mt-6 mb-8" src="/assets/images/projects/goalsforme-analytics.png" alt="goalsforme analytics dashboard">
 
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Technical Stack </h2>
 
-- **Frontend:** Next.js (App Router), React, TailwindCSS  
-- **Backend:** Firebase Auth + Firestore (modular collections for goals, projects, tasks, habits)  
-- **AI Integration:** Gemini 2.5 Flash for structured goal planning  
-- **Email Infrastructure:** Resend API for invite & notification delivery  
-- **Hosting:** Vercel 
+- **Frontend:** Next.js, React  
+- **Backend:** Firebase Auth, Firestore  
+- **Data model:** goals, projects, tasks, habits  
+- **Hosting:** Vercel  
 - **Languages:** TypeScript, JavaScript  
 
 ---
@@ -55,26 +54,23 @@ The system uses **AI prompting pipelines** (Gemini 2.5 Flash) to expand short us
 - Full-stack TypeScript development with React & Firebase  
 - Real-time data modeling and Firestore security rules  
 - Serverless API design and environment management on Vercel  
-- AI prompt engineering and JSON schema validation  
-- Authentication, invite flows, and transactional email (Resend API)  
-- Modular architecture planning for scalable features (shared goals, habits, AI pipelines)
+- Authentication and user-state management  
+- Dashboard-oriented UX for structured planning systems  
+- Modular architecture planning for scalable features
 
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Coming up </h2>
 <ul class="list-disc ml-6">
-<li>Email invite & shared goal infrastructure  </li>
-<li>Integrate cross-user dashboards and AI-assisted team planning </li>
-<li>Implement analytics dashboard: habit streaks, project progress forecasting </li>
+<li>Shared planning and invite flows</li>
+<li>Expanded dashboard analytics across projects and habits</li>
+<li>More opinionated AI-assisted planning where it improves structure without adding noise</li>
 </ul>
 
 ---
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2"> Reflection </h2>
 
-Building *goalsforme.com* has been a great experience in **production-ready full-stack web development.** To find the balance in database design, UX, and AI-driven automation has been super fun.  
-The project demonstrates how large-scale personal productivity tools can be built using modern frameworks with minimal infrastructure, and it continues to evolve as I refine the collaborative and AI components.
+Building *goalsforme.com* has been a strong exercise in product-oriented systems thinking: defining the right data model, shaping the UX around structured workflows, and deciding where AI should help versus where simple clarity is better.
 
-The best part is that I use it everyday, and I am happy to have a few users who like it.
-
-
+The product continues to evolve, but it already reflects the kind of work I want to do more of: durable systems, clear interfaces, and tools that help people coordinate real work over time.

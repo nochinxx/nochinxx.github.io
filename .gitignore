@@ -35,6 +35,10 @@ _site/
 # GitHub Pages / Jekyll specific
 .sass-cache/
 .jekyll-cache/
+.bundle/
+vendor/bundle/
+Gemfile
+Gemfile.lock
 
 # Large media or data files (optional)
 assets/videos/

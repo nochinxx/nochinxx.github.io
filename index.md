@@ -4,11 +4,17 @@ layout: default
 
 <link rel="stylesheet" href="/assets/style.css">
 
-<div style="display:flex; align-items:center; gap:16px; margin-top:24px;">
-  <img class="avatar" src="/assets/images/HeadShots097.jpg" alt="Mario Jimenez">
+{% assign projects = site.data.projects | sort: "order" %}
+{% assign featured_projects = projects | where: "featured", true %}
+{% assign regular_projects = projects | where: "featured", false %}
+{% assign writing = site.data.writing %}
+
+<div style="display:flex; align-items:center; gap:16px; margin-top:12px;">
+  <img class="avatar" src="/assets/images/mario.JPG" alt="Mario Jimenez Illesca">
   <div>
     <h1 style="margin:0;">Mario Jimenez Illesca</h1>
-    <p style="margin:4px 0 0 0;">CS @ SFSU · Full-stack dev · Interested in Machine Learning, AI/VR and Biotech</p>
+    <p style="margin:4px 0 0 0;">Full-stack software engineer building production-ready applications, frontend systems, and data-heavy product interfaces.</p>
+    <p style="margin:4px 0 0 0;">Interested in product engineering, AI workflows, and fintech tools with real-world users and operational depth.</p>
     <p style="margin:4px 0 0 0;">
       <a href="mailto:mariojillesca@gmail.com">mariojillesca@gmail.com</a> · 
       <a href="https://github.com/nochinxx">GitHub</a> · 
@@ -18,107 +24,129 @@ layout: default
   </div>
 </div>
 
+## Featured Systems
+
+<p class="section-note">
+These are my strongest current systems projects: work that combines product thinking, technical architecture, and real-world workflows.
+</p>
+
+<div class="grid card-grid">
+  {% for project in featured_projects %}
+    <div class="project-card featured-card">
+      <div class="media-frame">
+        {% if project.image %}
+          <img class="card-media card-media--{{ project.key }}" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        {% else %}
+          <div class="media-placeholder">{{ project.placeholder }}</div>
+        {% endif %}
+      </div>
+
+      <h3>
+        {% if project.project_url %}
+          <a href="{{ project.project_url | relative_url }}">{{ project.title }}</a>
+        {% else %}
+          {{ project.title }}
+        {% endif %}
+      </h3>
+
+      <p class="card-description">{{ project.summary }}</p>
+
+      <div class="tag-row">
+        {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <p class="card-links">
+        {% if project.live_url %}<a href="{{ project.live_url }}">Live</a>{% endif %}
+        {% if project.github_url %}<a href="{{ project.github_url }}">GitHub</a>{% endif %}
+        {% if project.article_url %}<a href="{{ project.article_url | relative_url }}">{{ project.article_label }}</a>{% endif %}
+      </p>
+    </div>
+  {% endfor %}
+</div>
+
 ## Skills
 
-C++, Python, Java, JavaScript/TypeScript, React/Next.js, Firebase/Firestore, Git.
+TypeScript/JavaScript, React/Next.js, Firebase/Firestore, Python, Java, C++, Git, AI prototyping, dashboard-style product interfaces.
 
 ## Projects
 
-<div class="grid">
-  <div class="project-card">
-    <h3><a href="{{ '/projects/goalsforme/' | relative_url }}">
-      goalsforme.com
-    </a>
-      <span class="badge">Next.js · React · Gemini · Firebase · Firestore </span>
-    </h3>
-    <p>
-      AI-assisted goal planner and habit tracker built with Next.js and Firebase.  
-      Transforms natural-language goals into structured projects and deadlines, with upcoming real-time collaboration.
-    </p>
-    <p>
-      <a href="https://github.com/nochinxx/goals">Code</a>
-      <a href="https://goalsforme.com">Live</a>
-    </p>
-  </div>
-</div>
+<p class="section-note">
+Broader shipped work, open-source contributions, and earlier projects that still show range across product, UI, and engineering foundations.
+</p>
 
-<div class="grid">
-  <div class="project-card">
-    <h3><a href="{{ '/projects/ucsd-data-structures/' | relative_url }}">
-      UCSD Data Structures & Performance
-    </a>
-      <span class="badge">Java · Algorithms · Data Structures</span>
-    </h3>
-    <p>
-      A series of five CS projects covering linked lists, tries, autocomplete, text analysis, performance benchmarking, 
-      and spelling suggestion engines. Focused on implementing core data structures from scratch, optimizing algorithms, 
-      and validating correctness with JUnit tests. 
-    </p>
-    <p>
-      <a href="https://github.com/nochinxx/ucsd-data-structures">Code</a>
-    </p>
-  </div>
-</div>
+<div class="grid card-grid">
+  {% for project in regular_projects %}
+    <div class="project-card">
+      {% if project.project_url %}
+        <h3><a href="{{ project.project_url | relative_url }}">{{ project.title }}</a></h3>
+      {% else %}
+        <h3>{{ project.title }}</h3>
+      {% endif %}
 
-<div class="grid">
-  <div class="project-card">
-    <h3><a href="{{ '/projects/dayton-sheets/' | relative_url }}">Dayton Financial RFQ Tool</a> 
-      <span class="badge">Next.js · Firebase · Firestore · TanStack</span>
-    </h3>
-    <p>
-      Multi-tenant RFQ and quoting platform featuring real-time buyer/seller dashboards, role-based access, interactive spreadsheet UI, seller magic links, batch updates, and buyer aggregation views. 
-      Replaced complex spreadsheets and saved thousands in operational costs.
-    </p>
-    <p>
-      <a href="https://github.com/nima64/Dayton-Sheets">Code</a> · 
-      <a href="https://dayton-sheets-git-main-rintarouokabe12gmailcoms-projects.vercel.app/">Live</a>
-    </p>
-  </div>
+      <p class="card-description">{{ project.summary }}</p>
 
-  <div class="project-card">
-    <h3>Nutrition Tracker <span class="badge">React · Firebase</span></h3>
-    <p>
-      USDA API integration to scrape all the nutrients from different foods, charts, role-based access, and daily macro insights with clean UI.
-    </p>
-    <p>
-      <a href="https://github.com/nima64/nutrition-nextjs">Code</a> · 
-      <a href="https://nutrition-nextjs.vercel.app/">Live</a>
-    </p>
-  </div>
-</div>
+      <div class="tag-row">
+        {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
 
-## Blog Highlights
-
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-    </li>
+      <p class="card-links">
+        {% if project.live_url %}<a href="{{ project.live_url }}">Live</a>{% endif %}
+        {% if project.github_url %}<a href="{{ project.github_url }}">GitHub</a>{% endif %}
+        {% if project.article_url %}<a href="{{ project.article_url | relative_url }}">{{ project.article_label }}</a>{% endif %}
+      </p>
+    </div>
   {% endfor %}
-</ul>
+</div>
+
+## Writing
+
+<div class="grid card-grid">
+  {% for item in writing %}
+    <div class="project-card">
+      <p class="card-date">{{ item.date }}</p>
+      <h3>
+        {% if item.internal_url %}
+          <a href="{{ item.internal_url | relative_url }}">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h3>
+      <p class="card-description">{{ item.summary }}</p>
+
+      <div class="tag-row">
+        {% for tag in item.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <p class="card-links">
+        {% if item.internal_url %}<a href="{{ item.internal_url | relative_url }}">Read</a>{% endif %}
+      </p>
+    </div>
+  {% endfor %}
+</div>
 
 ## Experience
 
-**Software Developer (Contract) — Dayton Financial** (Apr–Jun 2025)  
-Designed and deployed a production-ready quoting platform replacing complex spreadsheet workflows, saving thousands in operational costs.  
-Built real-time buyer-seller dashboards with interactive spreadsheet UIs featuring live updates, cell-level editing, and secure role-based access.  
+**Software Developer (Contract) — Dayton Financial** (April 2025 – June 2025)  
+Designed and deployed a production-ready quoting platform replacing spreadsheet-based workflows.  
+Built real-time dashboards, role-based access, and collaborative spreadsheet-style interfaces under tight delivery timelines.  
 _Stack: Next.js, TypeScript, React, Firebase, TanStack Table._
 
-**Intern — Boyd Lighting** (Jun–Aug 2025)  
-Digitized and structured a 1,000+ product archive into a searchable knowledge base, improving sales enablement.  
-Proposed VR-powered virtual showroom and AI-driven search tool concepts to enhance product discovery.
+**Software Intern — Boyd Lighting** (June 2025 – August 2025)  
+Built internal web tools to upload, organize, and manage large datasets with authenticated access for internal teams.  
+Collaborated with engineers on documentation, code review, and tooling improvements; supported testing and deployment.
 
-**Coding Teacher — Marin Horizon Middle School** (Sep 2025–Present)  
-Designed and delivered a custom coding curriculum (Scratch) for 6th–8th graders.  
-Taught problem decomposition, logic, and computational thinking, guiding students in building interactive projects.
+**Coding Teacher — Marin Horizon Middle School** (September 2025 – Present)  
+Designed and delivered a programming curriculum, translating technical concepts for a non-technical audience and iterating on UX based on direct feedback.
 
-**Intern — UC Merced CalTeach Program** (Jul–Aug 2024)  
-Developed Python/Jupyter-based visualizations of dark matter data with Astropy and Matplotlib.  
-Collaborated with faculty to improve K-12 STEM education materials and strategies.
+**Tutor — Computer Science, Mathematics & Statistics** (2023 – Present)  
+Tutored undergraduates and high-schoolers in Python, statistics, and algorithms.
 
-## Résumé
-
-<p>
-  <a href="assets/documents/resume.pdf">📄 Download PDF</a><br>
-  <span>Email me for referrals</span>
-</p>
+**Intern — University of California, Merced** (July 2024 – August 2024)  
+Built Python-based data visualizations and educational tools using real-world scientific datasets through the CalTeach program.  
+Worked on research-oriented technical material with an education focus.

@@ -1,0 +1,241 @@
+- key: multi-agent-investment-research
+  title: Multi-Agent Investment Research System
+  order: 1
+  featured: true
+  project_url: /projects/multi-agent-investment-research/
+  summary: A 12-agent research workflow that used disagreement, verification, and critique loops to make financial analysis more reliable.
+  stack:
+    - Perplexity Computer
+    - Multi-agent orchestration
+    - Financial modeling
+    - Verification workflows
+    - Interactive thesis app
+  tags:
+    - AI workflows
+    - Systems design
+    - Finance
+    - Verification
+  live_url: https://www.perplexity.ai/computer/a/elv-investment-thesis-stock-pi-hLArTzcNRfaEotogjuAjfQ
+  github_url:
+  article_url: /posts/five-ai-agents-disagreed/
+  article_label: Article
+  image: /assets/images/multi-agent/workflow.png
+  placeholder:
+
+- key: swipr
+  title: SwiPR / PRs on Edge
+  order: 2
+  featured: true
+  project_url: /projects/prs-on-edge-swipr/
+  summary: "Two hackathon iterations of an AI PR-review system: one focused on repo memory/retrieval, the other on adaptive generative UI."
+  stack:
+    - Next.js
+    - React
+    - TypeScript
+    - CopilotKit
+    - GitHub API
+    - Generative UI
+    - pgvector
+  tags:
+    - AI workflows
+    - Frontend systems
+    - Developer tools
+    - Edge interfaces
+  live_url:
+  github_url: https://github.com/nochinxx/PRs-on-edge
+  article_url: /posts/prs-on-edge/
+  article_label: Article
+  image: /assets/images/projects/swipr-review.png
+  placeholder:
+
+- key: gatorlend
+  title: GatorLend
+  order: 3
+  featured: true
+  project_url: /projects/gatorlend/
+  summary: A campus marketplace exploring how student asset exchange can evolve toward verifiable ownership and transfer systems.
+  stack:
+    - XRPL
+    - Wallet authentication
+    - NFT minting
+    - Product validation
+    - Web platform
+  tags:
+    - Fintech
+    - Blockchain
+    - Systems design
+    - Product engineering
+  live_url: https://fin-gatorlend.com
+  github_url:
+  article_url: /posts/gatorlend-blackrock-reflection/
+  article_label: Reflection
+  image: /assets/images/projects/gatorlend-card.png
+  placeholder:
+
+- key: goalsforme
+  title: goalsforme.com
+  order: 4
+  featured: false
+  project_url: /projects/goalsforme/
+  summary: Production goal-planning app that turns goals into structured projects, tasks, habits, and progress tracking.
+  stack:
+    - Next.js
+    - React
+    - Firebase Auth
+    - Firestore
+    - TypeScript
+  tags:
+    - Productivity systems
+    - Data modeling
+    - Full-stack
+    - AI-assisted planning
+  live_url: https://goalsforme.com
+  github_url: https://github.com/nochinxx/goals
+  article_url: /projects/goalsforme/
+  article_label: Project page
+  image: /assets/images/projects/goalsforme-analytics.png
+  placeholder:
+
+- key: dayton-rfq
+  title: Dayton Financial RFQ Tool
+  order: 5
+  featured: false
+  project_url: /projects/dayton-sheets/
+  summary: Internal quoting platform that replaced spreadsheet workflows with a real-time, multi-user dashboard.
+  stack:
+    - Next.js
+    - React
+    - Firebase
+    - Firestore
+    - TanStack Table
+  tags:
+    - Fintech
+    - Data-heavy UI
+    - Realtime collaboration
+    - Operations dashboard
+  live_url:
+  github_url:
+  article_url: /projects/dayton-sheets/
+  article_label: Project page
+  image: /assets/images/dayton/webapp.png
+  placeholder:
+
+- key: travelclaim-ai
+  title: TravelClaim AI
+  order: 6
+  featured: false
+  project_url: /projects/travelclaim-ai/
+  summary: "Hackathon prototype for agentic travel reimbursement: RAG policy answers, form autofill, and receipt validation."
+  stack:
+    - Next.js
+    - Tailwind CSS
+    - Supabase
+    - pgvector
+    - Gemini
+    - Google Vision OCR
+    - PDF workflows
+  tags:
+    - Agentic AI
+    - RAG
+    - Automation
+    - PDF workflows
+    - Hackathon
+  live_url:
+  github_url: https://github.com/nochinxx/travelclaimAI
+  article_url: /projects/travelclaim-ai/
+  article_label: Project page
+  image:
+  placeholder:
+
+- key: crecelux
+  title: Crecelux — Multi-Product Landing Page & Book Interface Prototype
+  order: 7
+  featured: false
+  project_url: /projects/crecelux/
+  summary: Next.js/MUI frontend prototype combining a responsive multi-product landing page with a reader-friendly Books by Jorge content interface.
+  stack:
+    - Next.js
+    - React
+    - Material UI
+    - next-intl
+    - Firebase
+  tags:
+    - Frontend
+    - Next.js
+    - MUI
+    - Product UI
+    - Content interface
+    - Prototype
+  live_url:
+  github_url:
+  article_url: /projects/crecelux/
+  article_label: Project page
+  image:
+  placeholder: Product interface screenshots coming soon
+
+- key: plotly-contribution
+  title: Plotly.py contribution
+  order: 8
+  featured: false
+  project_url: /projects/plotly-py-contribution/
+  summary: Open-source Plotly.py contribution focused on fixing labeled vertical lines by moving annotation logic toward shape.label.
+  stack:
+    - Python
+    - Plotly.py
+    - Open source
+    - Debugging
+    - Data visualization
+  tags:
+    - OSS
+    - Data interfaces
+    - Python
+    - Contribution workflow
+  live_url: https://github.com/plotly/plotly.py
+  github_url: https://github.com/plotly/plotly.py
+  article_url: /posts/plotly-py-contribution-notes/
+  article_label: Article
+  image:
+  placeholder: Contribution screenshots and writeup coming soon
+
+- key: nutrition-tracker
+  title: Nutrition Tracker
+  order: 9
+  featured: false
+  project_url:
+  summary: Nutrition dashboard integrating USDA data with macro tracking and visual progress views.
+  stack:
+    - React
+    - Firebase
+    - USDA API
+  tags:
+    - Student project
+    - Health
+    - Dashboard
+  live_url: https://nutrition-nextjs.vercel.app/
+  github_url: https://github.com/nima64/nutrition-nextjs
+  article_url:
+  article_label:
+  image:
+  placeholder: Screenshots coming soon
+
+- key: ucsd-data-structures
+  title: UCSD Data Structures
+  order: 10
+  featured: false
+  project_url: /projects/ucsd-data-structures/
+  summary: Java data structures projects covering tries, linked lists, autocomplete, testing, and performance.
+  stack:
+    - Java
+    - Algorithms
+    - Data structures
+    - JUnit
+  tags:
+    - Coursework
+    - Foundations
+    - Performance
+  live_url:
+  github_url: https://github.com/nochinxx/ucsd-data-structures
+  article_url: /projects/ucsd-data-structures/
+  article_label: Project page
+  image:
+  placeholder: Additional visuals coming soon
