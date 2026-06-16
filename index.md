@@ -79,13 +79,11 @@ Broader shipped work, open-source contributions, and earlier projects that still
 <div class="grid card-grid">
   {% for project in regular_projects %}
     <div class="project-card">
+      {% if project.image %}
       <div class="media-frame">
-        {% if project.image %}
-          <img class="card-media" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-        {% else %}
-          <div class="media-placeholder">{{ project.placeholder }}</div>
-        {% endif %}
+        <img class="card-media" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
       </div>
+      {% endif %}
       {% if project.project_url %}
         <h3><a href="{{ project.project_url | relative_url }}">{{ project.title }}</a></h3>
       {% else %}
