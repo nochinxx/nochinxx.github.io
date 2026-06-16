@@ -1,3 +1,16 @@
+- key: arcade-marin-horizon
+  title: Building an Arcade Cabinet at Marin Horizon School
+  date: June 16, 2026
+  summary: How a semester of teaching Scratch and p5.js ended with students playing games they wrote on a hand-built plywood arcade cabinet.
+  tags:
+    - Hardware
+    - Education
+    - Raspberry Pi
+    - Teaching
+  internal_url: /posts/arcade-marin-horizon/
+  external_url:
+  external_label:
+
 - key: five-ai-agents
   title: How Five AI Agents Disagreed, and Why That Was the Point
   date: April 5, 2026
