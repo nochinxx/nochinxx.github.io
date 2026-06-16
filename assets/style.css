@@ -189,6 +189,10 @@ main ol, .main-content ol, .markdown-body ol {
   display: block;
 }
 
+.card-media--arcade-cabinet {
+  object-position: center 55%;
+}
+
 .media-placeholder {
   display: flex;
   align-items: center;
