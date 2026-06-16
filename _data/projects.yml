@@ -198,8 +198,8 @@
   github_url:
   article_url: /posts/arcade-marin-horizon/
   article_label: Article
-  image:
-  placeholder: Build photos coming soon
+  image: /assets/images/projects/arcade/arcade-cabinet-school.jpeg
+  placeholder:
 - key: plotly-contribution
   title: Plotly.py contribution
   order: 8
