@@ -172,8 +172,8 @@
   github_url:
   article_url: /projects/crecelux/
   article_label: Project page
-  image:
-  placeholder: Product interface screenshots coming soon
+  image: /assets/images/projects/crecelux.png
+  placeholder:
 
 
 - key: arcade-cabinet
