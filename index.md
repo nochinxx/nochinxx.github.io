@@ -132,23 +132,23 @@ Broader shipped work, open-source contributions, and earlier projects that still
 
 ## Experience
 
-**Software Developer (Contract) — Dayton Financial** (April 2025 – June 2025)  
-Designed and deployed a production-ready quoting platform replacing spreadsheet-based workflows.  
-Built real-time dashboards, role-based access, and collaborative spreadsheet-style interfaces under tight delivery timelines.  
-_Stack: Next.js, TypeScript, React, Firebase, TanStack Table._
+**Software Developer (Contract) — Dayton Financial** (April 2025 – June 2025)
+- Designed and deployed a production-ready quoting platform replacing spreadsheet-based workflows
+- Built real-time dashboards, role-based access, and collaborative spreadsheet-style interfaces under tight delivery timelines
+- Stack: Next.js, TypeScript, React, Firebase, TanStack Table
 
-**Software Intern — Boyd Lighting** (June 2025 – August 2025)  
-Built internal web tools to upload, organize, and manage large datasets with authenticated access for internal teams.  
-Collaborated with engineers on documentation, code review, and tooling improvements; supported testing and deployment.
+**Software Intern — Boyd Lighting** (June 2025 – August 2025)
+- Built internal web tools to upload, organize, and manage large datasets with authenticated access for internal teams
+- Collaborated with engineers on documentation, code review, and tooling improvements; supported testing and deployment
 
-**Coding Teacher — Marin Horizon Middle School** (September 2025 – Present)  
-Taught JavaScript (p5.js) and Scratch to middle schoolers with no prior coding experience; iterated curriculum based on direct student feedback.  
-Led semester capstone: designed and built a full-size arcade cabinet (Raspberry Pi Zero 2 W, Pygame, NES emulator, hand-soldered GPIO controls, plywood cabinet) delivered to the school at end of semester.  
-Students wrote original Pygame games that ran on the final machine alongside classic NES titles.
+**Coding Teacher — Marin Horizon Middle School** (September 2025 – Present)
+- Taught JavaScript (p5.js) and Scratch to middle schoolers with no prior coding experience; iterated curriculum based on direct student feedback
+- Led semester capstone: designed and built a full-size arcade cabinet (Raspberry Pi Zero 2 W, Pygame, NES emulator, hand-soldered GPIO controls, plywood cabinet) delivered to the school at end of semester
+- Students wrote original Pygame games that ran on the final machine alongside classic NES titles
 
-**Tutor — Computer Science, Mathematics & Statistics** (2023 – Present)  
-Tutored undergraduates and high-schoolers in Python, statistics, and algorithms.
+**Tutor — Computer Science, Mathematics & Statistics** (2023 – Present)
+- Tutored undergraduates and high-schoolers in Python, statistics, and algorithms
 
-**Intern — University of California, Merced** (July 2024 – August 2024)  
-Built Python-based data visualizations and educational tools using real-world scientific datasets through the CalTeach program.  
-Worked on research-oriented technical material with an education focus.
+**Intern — University of California, Merced** (July 2024 – August 2024)
+- Built Python-based data visualizations and educational tools using real-world scientific datasets through the CalTeach program
+- Worked on research-oriented technical material with an education focus
