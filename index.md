@@ -81,7 +81,7 @@ Broader shipped work, open-source contributions, and earlier projects that still
     <div class="project-card">
       {% if project.image %}
       <div class="media-frame">
-        <img class="card-media" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        <img class="card-media card-media--{{ project.key }}" src="{{ project.image | relative_url }}" alt="{{ project.title }}">
       </div>
       {% endif %}
       {% if project.project_url %}
