@@ -142,7 +142,9 @@ Built internal web tools to upload, organize, and manage large datasets with aut
 Collaborated with engineers on documentation, code review, and tooling improvements; supported testing and deployment.
 
 **Coding Teacher — Marin Horizon Middle School** (September 2025 – Present)  
-Designed and delivered a programming curriculum, translating technical concepts for a non-technical audience and iterating on UX based on direct feedback.
+Taught JavaScript (p5.js) and Scratch to middle schoolers with no prior coding experience; iterated curriculum based on direct student feedback.  
+Led semester capstone: designed and built a full-size arcade cabinet (Raspberry Pi Zero 2 W, Pygame, NES emulator, hand-soldered GPIO controls, plywood cabinet) delivered to the school at end of semester.  
+Students wrote original Pygame games that ran on the final machine alongside classic NES titles.
 
 **Tutor — Computer Science, Mathematics & Statistics** (2023 – Present)  
 Tutored undergraduates and high-schoolers in Python, statistics, and algorithms.
