@@ -175,6 +175,31 @@
   image:
   placeholder: Product interface screenshots coming soon
 
+
+- key: arcade-cabinet
+  title: Arcade Cabinet — Marin Horizon School
+  order: 7
+  featured: false
+  project_url:
+  summary: Full-size plywood arcade cabinet built as a semester capstone. Runs custom Pygame games written by middle school students and classic NES titles on a Raspberry Pi Zero 2 W.
+  stack:
+    - Raspberry Pi Zero 2 W
+    - Pygame
+    - Python
+    - NES emulator
+    - GPIO
+  tags:
+    - Hardware
+    - Embedded systems
+    - Education
+    - Raspberry Pi
+    - Pygame
+  live_url:
+  github_url:
+  article_url: /posts/arcade-marin-horizon/
+  article_label: Article
+  image:
+  placeholder: Build photos coming soon
 - key: plotly-contribution
   title: Plotly.py contribution
   order: 8
