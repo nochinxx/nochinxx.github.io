@@ -85,6 +85,14 @@
 .markdown-body ol {
   padding-left: 1.4rem;
 }
+
+/* Cayman theme resets list-style — force markers back */
+main ul, .main-content ul, .markdown-body ul {
+  list-style: disc;
+}
+main ol, .main-content ol, .markdown-body ol {
+  list-style: decimal;
+}
   
   /* Project cards */
 .project-card {
