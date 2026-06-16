@@ -147,7 +147,7 @@
   github_url: https://github.com/nochinxx/travelclaimAI
   article_url: /projects/travelclaim-ai/
   article_label: Project page
-  image:
+  image: /assets/images/projects/travelclaim-rag.png
   placeholder:
 
 - key: crecelux
