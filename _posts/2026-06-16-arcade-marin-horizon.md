@@ -16,9 +16,13 @@ tags: [raspberry-pi, pygame, hardware, teaching]
   The cabinet runs on a Raspberry Pi Zero 2 W. Students wrote games in Pygame — a 2D sports game was the one that made it onto the machine. We also loaded classic NES ROMs: Super Mario Bros, Tetris, a bike game. The control panel has a red arcade joystick and six buttons, wired through a USB encoder board to GPIO. I soldered the connections by hand.
 </p>
 
+<img src="/assets/images/projects/arcade/arcade-soldering.jpeg" alt="Soldering the GPIO controls" style="width:100%;border-radius:8px;margin:16px 0;">
+
 <p>
   The cabinet itself is plywood — cut, assembled, and sanded in a garage over several weekends. A Philips monitor sits inside the frame. It boots straight into the game menu off a systemd service.
 </p>
+
+<img src="/assets/images/projects/arcade/arcade-testing-backyard.jpeg" alt="Testing the cabinet during build" style="width:100%;border-radius:8px;margin:16px 0;">
 
 <h2 class="text-2xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2">Why This Project</h2>
 
@@ -40,6 +44,10 @@ tags: [raspberry-pi, pygame, hardware, teaching]
   That constraint made me a better explainer. You cannot hide behind jargon with a middle schooler. If you cannot say it plainly, you do not understand it well enough.
 </p>
 
+<img src="/assets/images/projects/arcade/arcade-mario-pointing.jpeg" alt="Running the student Pygame game at school" style="width:100%;border-radius:8px;margin:16px 0;">
+
 <p>
   The cabinet got delivered to the school at the end of the semester. It is still there.
 </p>
+
+<img src="/assets/images/projects/arcade/arcade-cabinet-school.jpeg" alt="The finished cabinet at Marin Horizon" style="width:100%;border-radius:8px;margin:16px 0;">
