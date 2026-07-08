@@ -26,7 +26,7 @@ On June 24, 2026, a **M7.2 earthquake struck near Yumare, Venezuela**. Within ho
 
 I built a real-time damage map the same day — aggregating reports from YouTube, X/Twitter, and Instagram every 10 minutes and plotting them on an interactive heatmap. The app reached **4,000+ people** in the days following the earthquake.
 
-<a href="https://venezuela-earthquake-map.vercel.app">venezuela-earthquake-map.vercel.app</a>
+<a href="https://sismovenezuela.com">sismovenezuela.com</a>
 
 ---
 
@@ -78,6 +78,6 @@ This project is an example of what I think software can do at its best: respond 
 </ul>
 
 <p class="mt-6">
-  <a href="https://venezuela-earthquake-map.vercel.app">Live site</a> ·
+  <a href="https://sismovenezuela.com">Live site</a> ·
   <a href="https://github.com/nochinxx/venezuela-earthquake-map">GitHub</a>
 </p>
