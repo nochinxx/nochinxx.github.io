@@ -19,7 +19,7 @@ tags: [raspberry-pi, pygame, hardware, teaching]
 <img src="/assets/images/projects/arcade/arcade-soldering.jpeg" alt="Soldering the GPIO controls" style="width:100%;border-radius:8px;margin:16px 0;">
 
 <p>
-  The cabinet itself is plywood — cut, assembled, and sanded in a garage over several weekends. A Philips monitor sits inside the frame. It boots straight into the game menu off a systemd service.
+  The cabinet itself is plywood. A Philips monitor sits inside the frame. It boots straight into the game menu off a systemd service.
 </p>
 
 <img src="/assets/images/projects/arcade/arcade-testing-backyard.jpeg" alt="Testing the cabinet during build" style="width:100%;border-radius:8px;margin:16px 0;">
@@ -47,7 +47,7 @@ tags: [raspberry-pi, pygame, hardware, teaching]
 <img src="/assets/images/projects/arcade/arcade-mario-pointing.jpeg" alt="Running the student Pygame game at school" style="width:100%;border-radius:8px;margin:16px 0;">
 
 <p>
-  The cabinet got delivered to the school at the end of the semester. It is still there.
+  The machine is at the school.
 </p>
 
 <img src="/assets/images/projects/arcade/arcade-cabinet-school.jpeg" alt="The finished cabinet at Marin Horizon" style="width:100%;border-radius:8px;margin:16px 0;">
