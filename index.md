@@ -142,7 +142,7 @@ Broader shipped work, open-source contributions, and earlier projects that still
 - Built real-time dashboards, role-based access, and collaborative spreadsheet-style interfaces under tight delivery timelines
 - Stack: Next.js, TypeScript, React, Firebase, TanStack Table
 
-**Software Intern — Boyd Lighting** (June 2025 – August 2025)
+**Software Intern — Boyd Lighting** (December 2025 – January 2026)
 - Built internal web tools to upload, organize, and manage large datasets with authenticated access for internal teams
 - Collaborated with engineers on documentation, code review, and tooling improvements; supported testing and deployment
 
