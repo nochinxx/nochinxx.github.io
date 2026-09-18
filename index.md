@@ -137,7 +137,7 @@ Broader shipped work, open-source contributions, and earlier projects that still
 
 ## Experience
 
-**Software Developer (Contract) — Dayton Financial** (April 2025 – June 2025)
+**Software Developer (Contract) — Dayton Financial** (April 2025 – May 2025)
 - Designed and deployed a production-ready quoting platform replacing spreadsheet-based workflows
 - Built real-time dashboards, role-based access, and collaborative spreadsheet-style interfaces under tight delivery timelines
 - Stack: Next.js, TypeScript, React, Firebase, TanStack Table
